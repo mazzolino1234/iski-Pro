@@ -7,9 +7,9 @@ Il problema che mi sono posto nel pensare di realizzare questo programma è stat
 Requisiti dell'applicazione:
 
 1. Registrazione delle discese:
-   . Gli utenti devono poter avviare e interromprere la registrazione delle loro discese in maniera facile e funzionale.
-   . L'applicazione dovrà, per ogni discesa, registrare dati come la velocità massima, la velocità media, il tracciato GPS, il
-     il tempo e la lunghezza della discesa.
+. Gli utenti devono poter avviare e interromprere la registrazione delle loro discese in maniera facile e funzionale.
+. L'applicazione dovrà, per ogni discesa, registrare dati come la velocità massima, la velocità media, il tracciato GPS, il
+   il tempo e la lunghezza della discesa.
 
 2. Geolocalizzatore GPS per Valanghe:
    . L'applicazione deve essere in grado di attivare, in caso di valanghe, un geolocalizzatore GPS relativo alla posizione dell'utente travolto.
