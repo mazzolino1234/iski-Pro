@@ -16,20 +16,20 @@ Requisiti dell'applicazione:
    * Deve permettere agli utenti di poter diramare una segnalazione di soccorso con la loro posizione esatta ai contatti di emergenza più vicini.
 
 3. Confronto con Amici e Utenti Globali:
-   * Gli utenti devono poter confrontare i loro risultati con quelli dei propri amici aggiunti inApp.
+   * Gli utenti devono poter confrontare i loro risultati con quelli dei propri amici aggiunti in App.
    * Una leaderbord globale deve mostrare gli utenti con risultati migliori in modo di potersi confrontare.
 
 4. Modalità duella:
-   * Modalità che permette ad utenti vicini tra di loro di registrare la discesa e confrontare i risultati ottenuti decretando un vincitore.
-   * L'app deve permettere agli utenti di avviare la modalità duella solo dopo aver verificato la vicinanza tra i dispositivi
+   * Modalità che permette ad utenti vicini tra di loro di registrare la prossima discesa e confrontare i risultati ottenuti decretando un vincitore.
+   * L'app deve permettere agli utenti di avviare la modalità duella solo dopo aver verificato la vicinanza tra i dispositivi.
 
 5. Registrazione e autenticazione:
    * Gli utenti devono avere la possibilità di registrarsi ed accedere all'applicazione.
-   * Dare la possibilità di reset-password in caso di dimenticanzaz
+   * Dare la possibilità di reset-password in caso di dimenticanza.
 
 6. Profilo:
-   * L'utente deve poter visualizzare il proprio profilo e poter modificare i propri dati in base alle proprie esigenze
-   * Ogni utente deve avere un profilo personale che mostri le statistiche e discese in uno storico
+   * L'utente deve poter visualizzare il proprio profilo e poter modificare i propri dati in base alle proprie esigenze.
+   * Ogni utente deve avere un profilo personale che mostri le statistiche e discese in uno storico.
 
 7. Gps e tracciamento:
    * L'applicazione deve poter avere accesso al sistema GPS del dispositivo per poter registrare i dati e aver la       
@@ -39,10 +39,14 @@ Requisiti dell'applicazione:
    * Deve essere presente un database che permette di archiviare tutti gli utenti, le discese registrate e tutti gli utenti.
 
 9. Modalità premium:
-   * L'applicazione, tramite pagamento mensile, permetterà di avere accesso a maggiori funzioni
+   * L'applicazione, tramite pagamento mensile, permetterà di avere accesso a maggiori funzioni.
    * 9.1 Sistema di tracciamento migliorato.
    * 9.2 Mappa discesa:
-      * La modalità premium permette di avere una visualizzazione su mappa del percorso effettuato
+      * La modalità premium permette di avere una visualizzazione su mappa del percorso effettuato.
    * 9.3 Confronto automatico:
-     * Tramite la modalità premium sarà possibile confrontare la discesa effettuata con una precedente in modo tale da avere un confronto reale
+     * Tramite la modalità premium sarà possibile confrontare la discesa effettuata con una precedente in modo tale da avere un confronto reale.
+   * 9.4 Allarme pericoli:
+     * L'app appremium deve poter segnalare la possibilità di valanghe nella località sciistica selezionata e inviare una notifica all'utente.
+   * 9.5 Modalità fuori pista:
+      * Nella modalità premium deve essere presente la possibilità di scegliere la modalità fuori pista in modo da registrare le sciate su neve fresca.
    
