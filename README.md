@@ -47,7 +47,7 @@ Requisiti dell'applicazione:
       
 11. Modalità premium:
     * L'applicazione, tramite pagamento mensile, permetterà di avere accesso a maggiori funzionalità.
-    * 11.1 Sistema di tracciamento migliorato.
+    11.1 Sistema di tracciamento migliorato.
     * 11.2 Mappa discesa:
        * La modalità premium permette di avere una visualizzazione su mappa del percorso effettuato.
     * 11.3 Confronto automatico:
