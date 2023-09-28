@@ -45,7 +45,7 @@ Requisiti dell'applicazione:
       * Tramite la mappa è possibile visualizzare le piste intorno a me con gli impianti sciistici attivi.
       * Visualizzazione satellite per osservare la conformazione del territorio, le montagne e le cime intorno a me.
       
-   12. Modalità premium:
+   11. Modalità premium:
      * L'applicazione, tramite pagamento mensile, permetterà di avere accesso a maggiori funzioni.
      * 11.1 Sistema di tracciamento migliorato.
      * 11.2 Mappa discesa:
