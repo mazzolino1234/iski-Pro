@@ -42,23 +42,23 @@ Requisiti dell'applicazione:
     * L'app permette di condividere i risultati di una singola discesa
 
 10. Mappa:
-      * Tramite la mappa è possibile visualizzare le piste intorno a me con gli impianti sciistici attivi.
-      * Visualizzazione satellite per osservare la conformazione del territorio, le montagne e le cime intorno a me.
+    * Tramite la mappa è possibile visualizzare le piste intorno a me con gli impianti sciistici attivi.
+    * Visualizzazione satellite per osservare la conformazione del territorio, le montagne e le cime intorno a me.
       
-   11. Modalità premium:
-     * L'applicazione, tramite pagamento mensile, permetterà di avere accesso a maggiori funzioni.
-     * 11.1 Sistema di tracciamento migliorato.
-     * 11.2 Mappa discesa:
-        * La modalità premium permette di avere una visualizzazione su mappa del percorso effettuato.
-     * 11.3 Confronto automatico:
+11. Modalità premium:
+    * L'applicazione, tramite pagamento mensile, permetterà di avere accesso a maggiori funzionalità.
+    * 11.1 Sistema di tracciamento migliorato.
+    * 11.2 Mappa discesa:
+       * La modalità premium permette di avere una visualizzazione su mappa del percorso effettuato.
+    * 11.3 Confronto automatico:
        * Tramite la modalità premium sarà possibile confrontare la discesa effettuata con una precedente in modo tale da avere un confronto reale.
-     * 11.4 Allarme pericoli:
+    * 11.4 Allarme pericoli:
        * L'app appremium deve poter segnalare la possibilità di valanghe nella località sciistica selezionata e inviare una notifica all'utente.
-     * 11.5 Modalità fuori pista:
+    * 11.5 Modalità fuori pista:
         * Nella modalità premium deve essere presente la possibilità di scegliere la modalità fuori pista in modo da registrare le sciate su neve fresca.
-     * 11.6 Report:
+    * 11.6 Report:
        * Nella versione premium sarà possibile creare e stampare (PDF) un report automatico dei record di sciate
-     * 11.7 Modalità duella ampliata:
+    * 11.7 Modalità duella ampliata:
        * Tramite la versione premium dell'applicazione il numero di contendenti nella modalità duella (PUNTO 4) sarà ampliato da 2 a 4 persone massime.
       
 
