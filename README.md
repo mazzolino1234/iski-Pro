@@ -8,8 +8,7 @@ Requisiti dell'applicazione:
 
 1. Registrazione delle discese:
    * Gli utenti devono poter avviare e interromprere la registrazione delle loro discese in maniera facile e funzionale.
-   * L'applicazione dovrà, per ogni discesa, registrare dati come la velocità massima, la velocità media, il tracciato GPS, il
-     il tempo e la lunghezza della discesa.
+   * L'applicazione dovrà, per ogni discesa, registrare dati come la velocità massima, la velocità media, il tempo e la lunghezza della discesa.
      
 2. Geolocalizzatore GPS per Valanghe:
    * L'applicazione deve essere in grado di attivare, in caso di valanghe, un geolocalizzatore GPS relativo alla posizione dell'utente travolto.
@@ -26,6 +25,7 @@ Requisiti dell'applicazione:
 5. Registrazione e autenticazione:
    * Gli utenti devono avere la possibilità di registrarsi ed accedere all'applicazione.
    * Dare la possibilità di reset-password in caso di dimenticanza.
+   * Possibilità di attivare l'autenticazione a due fattori (2FA) in modo da aggiungere una sicurezza in più all'utente.
 
 6. Profilo:
    * L'utente deve poter visualizzare il proprio profilo e poter modificare i propri dati in base alle proprie esigenze.
@@ -38,15 +38,30 @@ Requisiti dell'applicazione:
 8. Database:
    * Deve essere presente un database che permette di archiviare tutti gli utenti, le discese registrate e tutti gli utenti.
 
-9. Modalità premium:
+9. Condivisione:
+    * L'app permette di condividere i risultati di una singola discesa
+
+10. Mappa:
+    * Tramite la mappa è possibile visualizzare le piste intorno a me con gli impianti sciistici attivi.
+    * Visualizzazione satellite per osservare la conformazione del territorio, le montagne e le cime intorno a me.
+      
+11. Modalità premium:
    * L'applicazione, tramite pagamento mensile, permetterà di avere accesso a maggiori funzioni.
-   * 9.1 Sistema di tracciamento migliorato.
-   * 9.2 Mappa discesa:
+   * 11.1 Sistema di tracciamento migliorato.
+   * 11.2 Mappa discesa:
       * La modalità premium permette di avere una visualizzazione su mappa del percorso effettuato.
-   * 9.3 Confronto automatico:
+   * 11.3 Confronto automatico:
      * Tramite la modalità premium sarà possibile confrontare la discesa effettuata con una precedente in modo tale da avere un confronto reale.
-   * 9.4 Allarme pericoli:
+   * 11.4 Allarme pericoli:
      * L'app appremium deve poter segnalare la possibilità di valanghe nella località sciistica selezionata e inviare una notifica all'utente.
-   * 9.5 Modalità fuori pista:
+   * 11.5 Modalità fuori pista:
       * Nella modalità premium deve essere presente la possibilità di scegliere la modalità fuori pista in modo da registrare le sciate su neve fresca.
-   
+   * 11.6 Report:
+     * Nella versione premium sarà possibile creare e stampare (PDF) un report automatico dei record di sciate
+   * 11.7 Modalità duella ampliata:
+     * Tramite la versione premium dell'applicazione il numero di contendenti nella modalità duella (PUNTO 4) sarà ampliato da 2 a 4 persone massime.
+    
+
+
+
+
