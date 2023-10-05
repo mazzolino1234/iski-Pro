@@ -60,6 +60,9 @@ Requisiti dell'applicazione:
        * Nella versione premium sarà possibile creare e stampare (PDF) un report automatico dei record di sciate
     * 11.7 Modalità duella ampliata:
        * Tramite la versione premium dell'applicazione il numero di contendenti nella modalità duella (PUNTO 4) sarà ampliato da 2 a 4 persone massime.
+     
+12. Soddisfazione requisiti GDPR:
+    * L'applicazione deve rispettare le norme europee, il regolamento generale sulla protezione dei dati (GDPR) -- non funzionale
       
 
 
