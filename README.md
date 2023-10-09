@@ -163,8 +163,8 @@ Requisiti dell'applicazione:
 9. Mappa:
     * Requisiti funzionali:
       * Utente:
-       * La mappa deve permettere all'utente di muoversi e di visualizzare gli impianti scsiistici attivi e le piste aperte con relativa difficoltà di discesa.
-       * Visualizzazione satellite per osservare la conformazione del territorio, le montagne e le cime intorno a me.
+        * La mappa deve permettere all'utente di muoversi e di visualizzare gli impianti scsiistici attivi e le piste aperte con relativa difficoltà di discesa.
+        * Visualizzazione satellite per osservare la conformazione del territorio, le montagne e le cime intorno a me.
 
    * Requisiti non funzionali:
      * Sistema:
