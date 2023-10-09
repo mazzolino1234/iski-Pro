@@ -63,34 +63,72 @@ Requisiti dell'applicazione:
      * L'applicazione deve gestire la presenza di utenti provenienti da diverse parti del mondo, considerando le differenze linguistiche.
      * L'applicazione dovrebbe consentire agli utenti di condividere i propri risultati sportivi su piattaforme di social media 
 
-3. Modalità duella:
-   * Modalità che permette ad utenti vicini tra di loro di registrare la prossima discesa e confrontare i risultati ottenuti decretando un vincitore.1
-   * L'app deve permettere agli utenti di avviare la modalità duella solo dopo aver verificato la vicinanza tra i dispositivi.
+4. Modalità duella:
+   * Requisiti funzionali:
+     * Utente:
+       * Gli utenti devono poter attivare la modalità duella quando sono nelle vicinanze di altri utenti che desiderano partecipare a una sfida.
+       * L'utente deve aver la possibilità di invitare uno dei propri amici a partecipare ad una sfida.
+       * Alla fine della corsa gli utenti devono poter fermare la registrazione della discesa.
+     * Sistema:
+       * L'app deve permettere agli utenti di avviare la modalità duella solo dopo aver verificato la vicinanza tra i dispositivi.
+       * Durante la modalità duella, l'applicazione deve registrare i dati delle discese dei partecipanti, inclusi tempi, velocità e altri dati pertinenti.
+       * L'applicazione deve essere in grado di confrontare i risultati delle discese dei partecipanti e determinare un vincitore in base a criteri specifici.
 
-4. Registrazione e autenticazione:
-   * Gli utenti devono avere la possibilità di registrarsi ed accedere all'applicazione.
-   * Dare la possibilità di reset-password in caso di dimenticanza.
-   * Possibilità di attivare l'autenticazione a due fattori (2FA) in modo da aggiungere una sicurezza in più all'utente.
+   * Requisiti non funzionali:
+     * Sistema:
+       * La registrazione delle discese e il confronto dei risultati devono essere altamente precisi per determinare un vincitore in modo corretto ed eguale.
+       * La verifica della vicinanza tra i dispositivi deve essere sicura e priva di attacchi esterni.
+       * Il confronto dei risultati e la determinazione del vincitore devono avvenire in modo rapido ed efficiente per fornire una risposta quasi istantanea agli utenti alla fine della sfida.
+     * Utente:
+       * Gli utenti devono ricevere notifiche immediate o avvisi quando un altro utente nelle vicinanze avvia una sfida duella.
 
-5. Profilo:
+   * Requisiti di dominio:
+     * L'applicazione deve rispettare le leggi e i regolamenti sulla privacy dei dati degli utenti, in particolare quando si tratta di condivisione di dati tra dispositivi tramite connession o bluetooth.
+     * La comunicazione tra dispositivi in modalità duella deve essere protetta da minacce alla sicurezza
+     
+
+5. Registrazione e autenticazione:
+   * Requisiti funzionali:
+     * Utente:
+       * Gli utenti devono avere la possibilità di registrarsi e create un account personale.
+       * Gli utenti devono poter accedere all'applicazione inserendo le proprie credenziali.
+       * Dare la possibilità di reset-password in caso di dimenticanza.
+       * Possibilità di attivare l'autenticazione a due fattori (2FA) in modo da aggiungere una sicurezza in più all'utente.
+
+   * Requisiti non funzionali:
+     * Sistema:
+       * L'applicazione deve garantire tempi di risposta rapidi durante la registrazione e l'autenticazione, evitando ritardi significativi.
+       * L'applicazione deve essere accessibile e garantire la registrazione su diverse piattaforme e dispositivi.
+     * Utente:
+       * Il processo di registrazione e autenticazione deve essere intuitivo e facile da seguire per gli utenti.
+       * L'applicazione dovrebbe fornire messaggi chiari e comprensibili agli utenti in caso di errori durante la registrazione o l'autenticazione.
+
+   * Requisiti di dominio:
+     * L'applicazione deve rispettare le norme della privacy riguardo l'accesso e la registrazione degli utenti.
+     * L'applicazione deve essere in grado di garantire sicurezza dei dati d'accesso e in caso di accesso indesiderato avvertire l'utente tramite email.
+     * L'applicazione deve rispettare le norme dell'autenticazione a 2FA.
+     
+
+
+6. Profilo:
    * L'utente deve poter visualizzare il proprio profilo e poter modificare i propri dati in base alle proprie esigenze.
    * Ogni utente deve avere un profilo personale che mostri le statistiche e discese in uno storico.
 
-6. Gps e tracciamento:
+7. Gps e tracciamento:
    * L'applicazione deve poter avere accesso al sistema GPS del dispositivo per poter registrare i dati e aver la       
      possibilità di essere localizzati in caso di valanga.
 
-7. Database:
+8. Database:
    * Deve essere presente un database che permette di archiviare tutti gli utenti, le discese registrate e tutti gli utenti.
 
-8. Condivisione:
+9. Condivisione:
     * L'app permette di condividere i risultati di una singola discesa
 
-9. Mappa:
+10. Mappa:
     * Tramite la mappa è possibile visualizzare le piste intorno a me con gli impianti sciistici attivi.
     * Visualizzazione satellite per osservare la conformazione del territorio, le montagne e le cime intorno a me.
       
-10. Modalità premium:
+11. Modalità premium:
     * L'applicazione, tramite pagamento mensile, permetterà di avere accesso a maggiori funzionalità.
     11.1 Sistema di tracciamento migliorato.
     * 11.2 Mappa discesa:
@@ -106,7 +144,7 @@ Requisiti dell'applicazione:
     * 11.7 Modalità duella ampliata:
        * Tramite la versione premium dell'applicazione il numero di contendenti nella modalità duella (PUNTO 4) sarà ampliato da 2 a 4 persone massime.
      
-11. Soddisfazione requisiti GDPR:
+12. Soddisfazione requisiti GDPR:
     * L'applicazione deve rispettare le norme europee, il regolamento generale sulla protezione dei dati (GDPR) -- non funzionale
       
 
