@@ -160,7 +160,7 @@ Requisiti dell'applicazione:
    * Requisiti di dominio:
      * L'applicazione deve rispettare la privacy dell'utente e richiedere l'autorizzazione dell'utente prima di condividere dati.
 
-10. Mappa:
+9. Mappa:
     * Requisiti funzionali:
      * Utente:
        * La mappa deve permettere all'utente di muoversi e di visualizzare gli impianti scsiistici attivi e le piste aperte con relativa difficoltà di discesa.
@@ -175,7 +175,7 @@ Requisiti dell'applicazione:
    * Requisiti di dominio:
      * L'applicazione deve utilizzare dati derivanti da tecnologie presenti negli impianti.
       
-11. Modalità premium:
+10. Modalità premium:
     * L'applicazione, tramite pagamento mensile, permetterà di avere accesso a maggiori funzionalità.
     10.1 Sistema di tracciamento migliorato.
     * 10.2 Mappa discesa:
@@ -189,7 +189,7 @@ Requisiti dell'applicazione:
     * 10.6 Modalità duella ampliata:
        * Tramite la versione premium dell'applicazione il numero di contendenti nella modalità duella (PUNTO 4) sarà ampliato da 2 a 4 persone massime.
      
-12. Soddisfazione requisiti GDPR:
+11. Soddisfazione requisiti GDPR:
     * L'applicazione deve rispettare le norme europee, il regolamento generale sulla protezione dei dati (GDPR).
       
 
