@@ -86,7 +86,6 @@ Requisiti dell'applicazione:
      * L'applicazione deve rispettare le leggi e i regolamenti sulla privacy dei dati degli utenti, in particolare quando si tratta di condivisione di dati tra dispositivi tramite connession o bluetooth.
      * La comunicazione tra dispositivi in modalità duella deve essere protetta da minacce alla sicurezza
      
-
 5. Registrazione e autenticazione:
    * Requisiti funzionali:
      * Utente:
@@ -108,44 +107,90 @@ Requisiti dell'applicazione:
      * L'applicazione deve essere in grado di garantire sicurezza dei dati d'accesso e in caso di accesso indesiderato avvertire l'utente tramite email.
      * L'applicazione deve rispettare le norme dell'autenticazione a 2FA.
      
-
-
 6. Profilo:
-   * L'utente deve poter visualizzare il proprio profilo e poter modificare i propri dati in base alle proprie esigenze.
-   * Ogni utente deve avere un profilo personale che mostri le statistiche e discese in uno storico.
+   * Requisiti funzionali:
+     * Utente:
+       * L'utente deve poter visualizzare il proprio profilo e poter modificare i propri dati in base alle proprie esigenze.
+       * Ogni utente deve avere un profilo personale che mostri le statistiche e discese in uno storico.
+     * Sistema:
+       * L'applicazione deve consentire agli utenti di visualizzare il proprio profilo utente, che includerà informazioni come nome, foto profilo, statistiche e storico delle discese.
+       * Gli utenti devono poter modificare le informazioni del proprio profilo.
+       
+   * Requisiti non funzionali:
+     * Sistema:
+       * L'applicazione deve garantire tempi di risposta rapidi durante l'accesso e la modifica dei dati del profilo.
+     * Utente:
+       * La visualizzazione e la modifica del profilo devono essere intuitive e facili da utilizzare
 
+   * Requisiti di dominio:
+     * L'applicazione deve adottare misure di sicurezza per proteggere i dati contenuti nel profilo dell'utente.
+     * L'applicazione deve rispettare le normative della privacy per il trattanto dei dati presenti nel profilo utente.
+ 
 7. Gps e tracciamento:
-   * L'applicazione deve poter avere accesso al sistema GPS del dispositivo per poter registrare i dati e aver la       
-     possibilità di essere localizzati in caso di valanga.
+   * Requisiti funzionali:
+     * Utente:
+       * Gli utenti devono essere in grado di concedere o revocare l'autorizzazione all'applicazione per accedere al sistema GPS del loro dispositivo.
+     * Sistema:
+       * L'applicazione deve essere in grado di accedere al sistema GPS del dispositivo dell'utente per registrare dati di posizione durante l'attività sportiva.
 
-8. Database:
-   * Deve essere presente un database che permette di archiviare tutti gli utenti, le discese registrate e tutti gli utenti.
+   * Requisiti non funzionali:
+     * Sistema:
+       * L'applicazione deve utilizzare il GPS in modo accurato per fornire informazioni precise sulla posizione dell'utente.
+     * Utente:
+       *  L'applicazione dovrebbe fornire feedback visivo sull'uso del GPS.
 
-9. Condivisione:
-    * L'app permette di condividere i risultati di una singola discesa
+   * Requisiti di dominio:
+     * L'applicazione deve rispettare le leggi e i regolamenti sulla privacy dei dati degli utenti riguardo all'uso del GPS e del tracciamento della posizione.
+
+8. Condivisione:
+   * Requisiti funzionali:
+     * Utente:
+       * Gli utenti devono poter selezionare specifici dati o risultati della discesa da condividere.
+       * Gli utenti devono avere la possibilità di scegliere il metodo di condivisione desiderato.
+       * Gli utenti devono poter selezionare a chi condividere i risultati selezionati.
+     * Sistema:
+       * L'applicazione deve consentire agli utenti di condividere i risultati di una singola discesa con altre persone o su piattaforme di social media.
+
+   * Requisiti non funzionali:
+     * Sistema:
+       * L'applicazione deve consetire una condivisione dati in modo velcoe e affidabile.
+     * Utente:
+       *  La funzione di condivisione deve essere intuitiva e di facile utilizzo per gli utenti.
+
+   * Requisiti di dominio:
+     * L'applicazione deve rispettare la privacy dell'utente e richiedere l'autorizzazione dell'utente prima di condividere dati.
 
 10. Mappa:
-    * Tramite la mappa è possibile visualizzare le piste intorno a me con gli impianti sciistici attivi.
-    * Visualizzazione satellite per osservare la conformazione del territorio, le montagne e le cime intorno a me.
+    * Requisiti funzionali:
+     * Utente:
+       * La mappa deve permettere all'utente di muoversi e di visualizzare gli impianti scsiistici attivi e le piste aperte con relativa difficoltà di discesa.
+       * Visualizzazione satellite per osservare la conformazione del territorio, le montagne e le cime intorno a me.
+
+   * Requisiti non funzionali:
+     * Sistema:
+       * Le informazioni sulla posizione delle piste e degli impianti sciistici sulla mappa devono essere accurate e aggiornate per garantire una corretta navigazione.
+       * L'applicazione deve avere un collegamento con varie sedi sciistiche in modo da consetire la visualizzazione degli impianti attivi e delle piste aperte.
+       *  L'applicazione dovrebbe consentire agli utenti di scaricare porzioni della mappa per un uso offline.
+
+   * Requisiti di dominio:
+     * L'applicazione deve utilizzare dati derivanti da tecnologie presenti negli impianti.
       
 11. Modalità premium:
     * L'applicazione, tramite pagamento mensile, permetterà di avere accesso a maggiori funzionalità.
-    11.1 Sistema di tracciamento migliorato.
-    * 11.2 Mappa discesa:
+    10.1 Sistema di tracciamento migliorato.
+    * 10.2 Mappa discesa:
        * La modalità premium permette di avere una visualizzazione su mappa del percorso effettuato.
-    * 11.3 Confronto automatico:
+    * 10.3 Confronto automatico:
        * Tramite la modalità premium sarà possibile confrontare la discesa effettuata con una precedente in modo tale da avere un confronto reale.
-    * 11.4 Allarme pericoli:
-       * L'app appremium deve poter segnalare la possibilità di valanghe nella località sciistica selezionata e inviare una notifica all'utente.
-    * 11.5 Modalità fuori pista:
+    * 10.4 Modalità fuori pista:
         * Nella modalità premium deve essere presente la possibilità di scegliere la modalità fuori pista in modo da registrare le sciate su neve fresca.
-    * 11.6 Report:
-       * Nella versione premium sarà possibile creare e stampare (PDF) un report automatico dei record di sciate
-    * 11.7 Modalità duella ampliata:
+    * 10.5 Report:
+       * Nella versione premium sarà possibile creare e stampare (PDF) un report automatico dei record di sciate.
+    * 10.6 Modalità duella ampliata:
        * Tramite la versione premium dell'applicazione il numero di contendenti nella modalità duella (PUNTO 4) sarà ampliato da 2 a 4 persone massime.
      
 12. Soddisfazione requisiti GDPR:
-    * L'applicazione deve rispettare le norme europee, il regolamento generale sulla protezione dei dati (GDPR) -- non funzionale
+    * L'applicazione deve rispettare le norme europee, il regolamento generale sulla protezione dei dati (GDPR).
       
 
 
