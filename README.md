@@ -16,8 +16,23 @@ Requisiti dell'applicazione:
      
 2. Geolocalizzatore GPS per Valanghe:
    * Funzionali:
-   * L'applicazione deve essere in grado di attivare, in caso di valanghe, un geolocalizzatore GPS relativo alla posizione dell'utente travolto.
-   * Deve permettere agli utenti di poter diramare una segnalazione di soccorso con la loro posizione esatta ai contatti di emergenza più vicini.
+     * Utente:
+       * Deve permettere agli utenti di poter diramare una segnalazione di soccorso con la loro posizione esatta ai contatti di emergenza più vicini.
+       *  L'applicazione deve avere un'interfaccia utente semplice e intuitiva per consentire agli utenti di segnalare una valanga e attivare il geolocalizzatore GPS senza difficoltà.
+     * Sistema:
+       * L'applicazione deve essere in grado di rilevare automaticamente un evento di valanga e attivare il geolocalizzatore GPS in risposta a questo evento.
+              
+   * Non funzionali:
+     * Sistema:
+       * La geolocalizzazione GPS deve essere accurata per fornire informazioni precise sulla posizione dell'utente.
+       * Il ritardo tra la valanga e l'invio delle informazione ai servizi di soccorso deve essere il più breve possibile
+       * L'applicazione dovrebbe essere progettata per funzionare anche in condizioni di scarsa connessione o in caso di assenza di segnale.
+
+   * Di dominio:
+     * Sistema:
+       * L'applicazione deve saper utilizzazre mezzi specifici al fine di comprendere cambiamenti molto rapidi di velocità per verificare la presenza di una valanga.
+       * La privacy dell'utente deve essere protetta e crittografata.
+       * Si devono impedire accessi indesiderati da parte di utenti esterni.
 
 3. Confronto con Amici e Utenti Globali:
    * Gli utenti devono poter confrontare i loro risultati con quelli dei propri amici aggiunti in App.
