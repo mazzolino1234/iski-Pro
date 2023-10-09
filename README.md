@@ -15,6 +15,7 @@ Requisiti dell'applicazione:
      * Deve essere possibile visualizzare i dati delle discese in un formato leggibile.
      
 2. Geolocalizzatore GPS per Valanghe:
+   * Funzionali:
    * L'applicazione deve essere in grado di attivare, in caso di valanghe, un geolocalizzatore GPS relativo alla posizione dell'utente travolto.
    * Deve permettere agli utenti di poter diramare una segnalazione di soccorso con la loro posizione esatta ai contatti di emergenza più vicini.
 
@@ -23,7 +24,7 @@ Requisiti dell'applicazione:
    * Una leaderbord globale deve mostrare gli utenti con risultati migliori in modo di potersi confrontare.
 
 4. Modalità duella:
-   * Modalità che permette ad utenti vicini tra di loro di registrare la prossima discesa e confrontare i risultati ottenuti decretando un vincitore.
+   * Modalità che permette ad utenti vicini tra di loro di registrare la prossima discesa e confrontare i risultati ottenuti decretando un vincitore.1
    * L'app deve permettere agli utenti di avviare la modalità duella solo dopo aver verificato la vicinanza tra i dispositivi.
 
 5. Registrazione e autenticazione:
