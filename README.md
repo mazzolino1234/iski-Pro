@@ -201,7 +201,7 @@ Requisiti dell'applicazione:
 
    <img src="http://yuml.me/diagram/scruffy/usecase/(note: N.1{bg:beige}), [Utente]-(Sign In), (Sign In)>(Avviare registrazione discesa), (Sign In)>(Interrompere registrazione discesa), (Sign In)>(Visualizzare dati discese), [Sistema]-(Registrazione velocità massima), [Sistema] - (Calcolo velocità media), [Sistema] - (Registrazione lunghezza percorso), [Sistema] - (Registrazione tempo impiegato)" >
 2. L'utente deve poter diramare una segnalazione di soccorso con la sua esatta posizione ai contatti di emergenza più vicini, scelti dal sistema, in caso di valange anche senza aver efettuato l'accesso avendo però la posizione GPS attiva.
-<img src="http://yuml.me/diagram/scruffy/usecase/(note: N.1{bg:beige}), [Utente]-(Attivazione GPS), (Attivazione GPS)>(diramare segnalazione di pericolo), [Sistema]-(Selezione contatti di emergenza disponiibli più vicini)" >
+<img src="http://yuml.me/diagram/scruffy/usecase/(note: N.2{bg:beige}), [Utente]-(Attivazione GPS), (Attivazione GPS)>(diramare segnalazione di pericolo), [Sistema]-(Selezione contatti di emergenza disponiibli più vicini)" >
 
       
 
