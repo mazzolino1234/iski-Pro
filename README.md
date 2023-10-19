@@ -191,6 +191,15 @@ Requisiti dell'applicazione:
      
 11. Soddisfazione requisiti GDPR:
     * L'applicazione deve rispettare le norme europee, il regolamento generale sulla protezione dei dati (GDPR).
+   
+
+**CASI D'USO:**
+
+1. L'utente, solo dopo aver effettuato l'accesso, deve avere la possibilità di avviare la registrazione della propria discesa, di interromperla e di poter visualizzare i dati delle discese salvate.
+
+   <img src="http://yuml.me/diagram/scruffy/usecase/(note: N.1{bg:beige}), [Utente]-(Sign In), (Sign In)>(Avviare registrazione discesa), (Sign In)>(Interrompere registrazione discesa), (Sign In)>(Visualizzare dati discese)" >
+2. 
+
       
 
 
