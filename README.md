@@ -161,25 +161,27 @@ Requisiti dell'applicazione:
      * L'applicazione deve rispettare la privacy dell'utente e richiedere l'autorizzazione dell'utente prima di condividere dati.
 
 9. Mappa:
-    * Requisiti funzionali:
-      * Utente:
-        * La mappa deve permettere all'utente di muoversi e di visualizzare gli impianti scsiistici attivi e le piste aperte con relativa difficoltà di discesa.
-        * Visualizzazione satellite per osservare la conformazione del territorio, le montagne e le cime intorno a me.
-
-   * Requisiti non funzionali:
-     * Sistema:
-       * Le informazioni sulla posizione delle piste e degli impianti sciistici sulla mappa devono essere accurate e aggiornate per garantire una corretta navigazione.
-       * L'applicazione deve avere un collegamento con varie sedi sciistiche in modo da consetire la visualizzazione degli impianti attivi e delle piste aperte.
-       *  L'applicazione dovrebbe consentire agli utenti di scaricare porzioni della mappa per un uso offline.
-
-   * Requisiti di dominio:
-     * L'applicazione deve utilizzare dati derivanti da tecnologie presenti negli impianti.
+    
       
 10. Modalità premium:
     * L'applicazione, tramite pagamento mensile, permetterà di avere accesso a maggiori funzionalità.
     10.1 Sistema di tracciamento migliorato.
-    * 10.2 Mappa discesa:
-       * La modalità premium permette di avere una visualizzazione su mappa del percorso effettuato.
+    10.2 Mappa discesa:
+       * Requisiti funzionali:
+          * Utente:
+            * La mappa deve permettere all'utente di muoversi e di visualizzare gli impianti scsiistici attivi e le piste aperte con relativa difficoltà di discesa.
+            * Visualizzazione satellite per osservare la conformazione del territorio, le montagne e le cime intorno a me.
+            * Visualizzare discesa effettuata su mappa.
+    
+       * Requisiti non funzionali:
+         * Sistema:
+           * Le informazioni sulla posizione delle piste e degli impianti sciistici sulla mappa devono essere accurate e aggiornate per garantire una corretta navigazione.
+           * L'applicazione deve avere un collegamento con varie sedi sciistiche in modo da consetire la visualizzazione degli impianti attivi e delle piste aperte.
+           *  L'applicazione dovrebbe consentire agli utenti di scaricare porzioni della mappa per un uso offline.
+    
+       * Requisiti di dominio:
+         * L'applicazione deve utilizzare dati derivanti da tecnologie presenti negli impianti.
+       
     * 10.3 Confronto automatico:
        * Tramite la modalità premium sarà possibile confrontare la discesa effettuata con una precedente in modo tale da avere un confronto reale.
     * 10.4 Modalità fuori pista:
@@ -197,8 +199,9 @@ Requisiti dell'applicazione:
 
 1. L'utente, solo dopo aver effettuato l'accesso, deve avere la possibilità di avviare la registrazione della propria discesa, di interromperla e di poter visualizzare i dati delle discese salvate.
 
-   <img src="http://yuml.me/diagram/scruffy/usecase/(note: N.1{bg:beige}), [Utente]-(Sign In), (Sign In)>(Avviare registrazione discesa), (Sign In)>(Interrompere registrazione discesa), (Sign In)>(Visualizzare dati discese)" >
-2. 
+   <img src="http://yuml.me/diagram/scruffy/usecase/(note: N.1{bg:beige}), [Utente]-(Sign In), (Sign In)>(Avviare registrazione discesa), (Sign In)>(Interrompere registrazione discesa), (Sign In)>(Visualizzare dati discese), [Sistema]-(Registrazione velocità massima), [Sistema] - (Registrazione velocità media), [Sistema] - (Registrazione lunghezza percorso), [Sistema] - (Registrazione tempo impiegato)" >
+2. L'utente deve poter diramare una segnalazione di soccorso con la sua esatta posizione ai contatti di emergenza più vicini in caso di valange anche senza aver efettuato l'accesso avendo però la posizione GPS attiva.
+
 
       
 
