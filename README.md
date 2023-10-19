@@ -14,7 +14,7 @@ Requisiti dell'applicazione:
      * Sistema:
        * Gli utenti devono poter avviare e interromprere la registrazione delle loro discese in maniera facile e funzionale.
        * L'applicazione dovrà, per ogni discesa, registrare dati come la velocità massima, la velocità media, il tempo e la lunghezza della discesa.
-       * I dati delle discese registrate devono essere conservati in modo sicuro e accessibili agli utenti per un periodo di tempo specificato.
+       * I dati delle discese registrate devono essere conservati in modo sicuro e accessibili agli utenti.
      
    * Requisiti non funzionali:
      * Sistema:
