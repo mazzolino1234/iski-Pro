@@ -199,9 +199,9 @@ Requisiti dell'applicazione:
 
 1. L'utente, solo dopo aver effettuato l'accesso, deve avere la possibilità di avviare la registrazione della propria discesa, di interromperla e di poter visualizzare i dati delle discese salvate.
 
-   <img src="http://yuml.me/diagram/scruffy/usecase/(note: N.1{bg:beige}), [Utente]-(Sign In), (Sign In)>(Avviare registrazione discesa), (Sign In)>(Interrompere registrazione discesa), (Sign In)>(Visualizzare dati discese), [Sistema iSki-Pro]-(Registrazione velocità massima), [Sistema iSki-Pro] - (Calcolo velocità media), [Sistema iSki-Pro] - (Registrazione lunghezza percorso), [Sistema iSki-Pro] - (Registrazione tempo impiegato)" >
+   <img src="http://yuml.me/diagram/scruffy/usecase/(note: N.1{bg:beige}), [Utente]-(Sign In), (Sign In)>(Avviare registrazione discesa), (Sign In)>(Interrompere registrazione discesa), (Sign In)>(Visualizzare dati discese), [Sistema iSki]-(Registrazione velocità massima), [Sistema iSki] - (Calcolo velocità media), [Sistema iSki] - (Registrazione lunghezza percorso), [Sistema iSki] - (Registrazione tempo impiegato)" >
 2. L'utente deve poter diramare una segnalazione di soccorso con la sua esatta posizione ai contatti di emergenza più vicini, scelti dal sistema, in caso di valange anche senza aver efettuato l'accesso avendo però la posizione GPS attiva.
-<img src="http://yuml.me/diagram/scruffy/usecase/(note: N.2{bg:beige}), [Utente]-(Attivazione GPS), (Attivazione GPS)>(diramare segnalazione di pericolo), [Sistema iSki-Pro]-(Selezione contatti di emergenza disponiibli più vicini)" >
+<img src="http://yuml.me/diagram/scruffy/usecase/(note: N.2{bg:beige}), [Utente]-(Attivazione GPS), (Attivazione GPS)>(diramare segnalazione di pericolo), [Sistema iSki]-(Selezione contatti di emergenza disponiibli più vicini)" >
 
       
 
