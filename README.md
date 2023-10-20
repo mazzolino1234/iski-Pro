@@ -204,6 +204,10 @@ Requisiti dell'applicazione:
 
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N.3{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)>(Aggiungi Amico), (Accesso Utente)>(Confronta Risultati con Amici), (Accesso Utente)>(Confronto Risultati con Utenti Globali), (Confronto Risultati con Utenti Globali) > (Mostra Risultati Migliori), (Confronta Risultati con Amici) > (Mostra Risultati Migliori), [Utente]-(Mostra Leaderboard Globale)'>
 
+4. kkkkk
+
+<img src='http://yuml.me/diagram/scruffy/usecase/(note: N.2{bg:beige}), [Utente]- (Accesso Utente), (Accesso Utente) > (Attiva Modalità Duella), (Accesso Utente) > (Invita Amico a Duella), (Accesso Utente) > (Registra Dati Discesa Duella), [Sistema]-(Confronta Risultati Duella), (Attiva Modalità Duella)<(Ferma Registrazione Discesa Duella), [Sistema]-(Verifica Vicinanza), (Confronta Risultati Duella) > (Determina Vincitore Duella)'>
+
       
 
 
