@@ -200,7 +200,9 @@ Requisiti dell'applicazione:
 
 <img src="http://yuml.me/diagram/scruffy/usecase/(note: N.2{bg:beige}), [Utente non autenticato]-(Invio segnalazione di soccorso), [Utente non autenticato]-(Attivazione GPS), [Utente non autenticato]-(Accesso Utente), [Sistema]-(Accesso Utente), (Invio segnalazione di soccorso)>(Invio posizione GPS), (Invio posizione GPS)>(Determinazione posizione GPS), (Invio segnalazione di soccorso)<(Notifica confermo invio)">
 
-3. 
+3. L'utente vuole visualizzare la leaderboard globale e deve effettuare l'accesso in caso volesse confrontare i propri dati con quelli di amici e utente globali, deve poter inoltre aggiugnere un amico.
+
+<img src='http://yuml.me/diagram/scruffy/usecase/(note: N.2{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)>(Aggiungi Amico), (Accesso Utente)>(Confronta Risultati con Amici), (Accesso Utente)>(Confronto Risultati con Utenti Globali), (Confronto Risultati con Utenti Globali) > (Mostra Risultati Migliori), (Confronta Risultati con Amici) > (Mostra Risultati Migliori), [Utente]-(Mostra Leaderboard Globale)'>
 
       
 
