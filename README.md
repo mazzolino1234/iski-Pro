@@ -160,13 +160,10 @@ Requisiti dell'applicazione:
    * Requisiti di dominio:
      * L'applicazione deve rispettare la privacy dell'utente e richiedere l'autorizzazione dell'utente prima di condividere dati.
 
-9. Mappa:
-    
-      
-10. Modalità premium:
+9. Modalità premium:
     * L'applicazione, tramite pagamento mensile, permetterà di avere accesso a maggiori funzionalità.
-    10.1 Sistema di tracciamento migliorato.
-    10.2 Mappa discesa:
+    9.1 Sistema di tracciamento migliorato.
+    9.2 Mappa discesa:
        * Requisiti funzionali:
           * Utente:
             * La mappa deve permettere all'utente di muoversi e di visualizzare gli impianti scsiistici attivi e le piste aperte con relativa difficoltà di discesa.
@@ -182,16 +179,16 @@ Requisiti dell'applicazione:
        * Requisiti di dominio:
          * L'applicazione deve utilizzare dati derivanti da tecnologie presenti negli impianti.
        
-    * 10.3 Confronto automatico:
+    * 9.3 Confronto automatico:
        * Tramite la modalità premium sarà possibile confrontare la discesa effettuata con una precedente in modo tale da avere un confronto reale.
-    * 10.4 Modalità fuori pista:
+    * 9.4 Modalità fuori pista:
         * Nella modalità premium deve essere presente la possibilità di scegliere la modalità fuori pista in modo da registrare le sciate su neve fresca.
-    * 10.5 Report:
+    * 9.5 Report:
        * Nella versione premium sarà possibile creare e stampare (PDF) un report automatico dei record di sciate.
-    * 10.6 Modalità duella ampliata:
+    * 9.6 Modalità duella ampliata:
        * Tramite la versione premium dell'applicazione il numero di contendenti nella modalità duella (PUNTO 4) sarà ampliato da 2 a 4 persone massime.
      
-11. Soddisfazione requisiti GDPR:
+10. Soddisfazione requisiti GDPR:
     * L'applicazione deve rispettare le norme europee, il regolamento generale sulla protezione dei dati (GDPR).
    
 
@@ -202,6 +199,8 @@ Requisiti dell'applicazione:
 2. L'utente deve poter diramare una segnalazione di soccorso con la sua esatta posizione ai contatti di emergenza più vicini, scelti dal sistema, in caso di valange anche senza aver efettuato l'accesso avendo però la posizione GPS attiva.
 
 <img src="http://yuml.me/diagram/scruffy/usecase/(note: N.2{bg:beige}), [Utente non autenticato]-(Invio segnalazione di soccorso), [Utente non autenticato]-(Attivazione GPS), [Utente non autenticato]-(Accesso Utente), [Sistema]-(Accesso Utente), (Invio segnalazione di soccorso)>(Invio posizione GPS), (Invio posizione GPS)>(Determinazione posizione GPS), (Invio segnalazione di soccorso)<(Notifica confermo invio)">
+
+3. 
 
       
 
