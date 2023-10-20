@@ -201,7 +201,7 @@ Requisiti dell'applicazione:
 
    <img src="http://yuml.me/diagram/scruffy/usecase/(note: N.1{bg:beige}), [Utente]-(Avviare registrazione discesa), [Utente]-(Visualizzare dati discese), [Utente]-(Termina registrazione discesa), (Termina registrazione discesa)>(Avviare registrazione discesa), (Avviare registrazione discesa)>(Sign In), (Visualizzare dati discese)>(Sign In), (Avviare registrazione discesa)<(Registrazione velocità massima), (Avviare registrazione discesa)<(Calcolo velocità media), (Avviare registrazione discesa)<(Registrazione lunghezza percorso), (Avviare registrazione discesa)<(Registrazione tempo impiegato), (Termina registrazione discesa)<(Invio notifica registrazione) , [Sistema iSki]-(Registrazione velocità massima), [Sistema iSki] - (Calcolo velocità media), [Sistema iSki] - (Registrazione lunghezza percorso), [Sistema iSki] - (Registrazione tempo impiegato)" >
 2. L'utente deve poter diramare una segnalazione di soccorso con la sua esatta posizione ai contatti di emergenza più vicini, scelti dal sistema, in caso di valange anche senza aver efettuato l'accesso avendo però la posizione GPS attiva.
-<img src="http://yuml.me/diagram/scruffy/usecase/(note: N.2{bg:beige}), [Utente]-(Attivazione GPS), (Attivazione GPS)>(diramare segnalazione di pericolo), [Sistema iSki]-(Selezione contatti di emergenza disponiibli più vicini)" >
+<img src="http://yuml.me/diagram/scruffy/usecase/(note: N.2{bg:beige}), [Utente]-(diramare segnalazione di pericolo), (diramare segnalazione di pericolo)>(Attivazione GPS), [Sistema iSki]-(Selezione contatti di emergenza disponiibli più vicini)" >
 
       
 
