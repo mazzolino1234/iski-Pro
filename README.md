@@ -207,14 +207,14 @@ Requisiti dell'applicazione:
 2.1 Il sistema rileva in automatico la valanga e invia una segnalazione di soccorso.
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N.2{bg:beige}), [Sistema iSki] - (Monitora Sensori), (Monitora Sensori) < (Rileva Valanga), (Rileva Valanga) > (Attiva Geolocalizzatore GPS), (Rileva Valanga) > (Invia Segnalazione), (Invia Segnalazione)<(Fornisce Feedback)'>
 
-3 L'utente accede e aggiunge un amico.
-<img src='http://yuml.me/diagram/scruffy/usecase/(note: N.3{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)<(Aggiungi Amico)'>
+3.0 L'utente accede e aggiunge un amico.
+<img src='http://yuml.me/diagram/scruffy/usecase/(note: N.3.0{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)-(Aggiungi Amico)'>
 
 3.1 L'utente visualizza la leaderboard globale anche senza aver effettuato l'accesso.
-<img src='http://yuml.me/diagram/scruffy/usecase/(note: N.3{bg:beige}), [Utente]-(Accesso Utente),  [Utente]-(Mostra Leaderboard Globale)'>
+<img src='http://yuml.me/diagram/scruffy/usecase/(note: N.3.1{bg:beige}), [Utente]-(Accesso Utente),  [Utente]-(Mostra Leaderboard Globale)'>
 
-3.2 L'utente effettua l'accesso e confronta i risultati dei prori amici aggiungi in ordine di punteggio.
-<img src='http://yuml.me/diagram/scruffy/usecase/(note: N.3{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)<(Aggiungi Amico), (Accesso Utente)<(Confronta Risultati con Amici), (Confronta Risultati con Amici) > (Mostra Risultati Migliori)'>
+3.2 L'utente effettua l'accesso aggiunge un amico o confronta i risultati dei prori amici aggiungi in ordine di punteggio.
+<img src='http://yuml.me/diagram/scruffy/usecase/(note: N.3.2{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)<(Aggiungi Amico), (Accesso Utente)<(Confronta Risultati con Amici), (Confronta Risultati con Amici) > (Mostra Risultati Migliori)'>
 
 4. L'utente dopo aver effettuato l'accesso avvia la modalità duella, il sitema deve verificare la vicinanza tra i due dispositivi. L'utente invita un proprio amico alla sfida. Al termine della discesa il sistema confronta in automatico i risultati e decreta un vincitore
 
