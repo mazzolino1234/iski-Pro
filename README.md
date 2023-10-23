@@ -255,7 +255,7 @@ Requisiti dell'applicazione:
 <img src="http://yuml.me/diagram/scruffy/usecase/(note: N. 7.1{bg:beige}), [Utente]-(Autorizzazione GPS), (Autorizzazione GPS) < (Accetta condizione), (Autorizzazione GPS) < (Rifiuta condizione), [Sistema]-(Invio notifica autorizzazione)" >
 
 8.1 L'utente loggato condivide i propri risultati di una sola discesa selezionata.
-<img src="http://yuml.me/diagram/scruffy/usecase/(note: N. 7.1{bg:beige}), [Utente]-(Accesso utente), (Accesso utente) - (Visualizzazione dati discese), (Visualizzazione dati discese) - (Selezione dati da condividere), (Selezione dati da condividere)<(Selezione piattaforma di condivisione),(Selezione dati da condividere)<(Selezione destinatario), [Sistema]-(Invio notifica condivisione effettuata)" >
+<img src="http://yuml.me/diagram/scruffy/usecase/(note: N. 8.1{bg:beige}), [Utente]-(Accesso utente), (Accesso utente) - (Visualizzazione dati discese), (Visualizzazione dati discese) - (Selezione dati da condividere), (Selezione dati da condividere)<(Selezione piattaforma di condivisione),(Selezione dati da condividere)<(Selezione destinatario), [Sistema]-(Invio notifica condivisione effettuata)" >
       
 
 
