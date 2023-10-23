@@ -93,6 +93,10 @@ Requisiti dell'applicazione:
        * Gli utenti devono poter accedere all'applicazione inserendo le proprie credenziali.
        * Dare la possibilità di reset-password in caso di dimenticanza.
        * Possibilità di attivare l'autenticazione a due fattori (2FA) in modo da aggiungere una sicurezza in più all'utente.
+     * Sistema:
+       * Il sistema deve consentire agli utenti di registrarsi creando un account e archiviare in modo sicuro le informazioni di registrazione.
+       * Il sistema deve verificare le credenziali dell'utente (email e password) durante il processo di accesso.
+       * Il sistema deve consentire agli utenti di reimpostare la propria password in modo sicuro e inviare conferme di reimpostazione via email.
 
    * Requisiti non funzionali:
      * Sistema:
@@ -201,7 +205,6 @@ Requisiti dell'applicazione:
 <img src="http://yuml.me/diagram/scruffy/usecase/(note: N.1.1{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)-(Visualizza record discese)" >
 
 2. L'utente deve poter diramare una segnalazione di soccorso con la sua esatta posizione ai contatti di emergenza più vicini, scelti dal sistema, in caso di valange anche senza aver efettuato l'accesso avendo però la posizione GPS attiva.
-
 <img src="http://yuml.me/diagram/scruffy/usecase/(note: N.2{bg:beige}), [Utente non autenticato]-(Invio segnalazione di soccorso), [Utente non autenticato]-(Attivazione GPS), [Utente non autenticato]-(Accesso Utente),  (Invio segnalazione di soccorso)>(Invio posizione GPS), (Invio posizione GPS)>(Determinazione posizione GPS), (Invio segnalazione di soccorso)>(Notifica confermo invio)">
 
 2.1 Il sistema rileva in automatico la valanga e invia una segnalazione di soccorso.
@@ -217,9 +220,13 @@ Requisiti dell'applicazione:
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N.3.2{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)<(Aggiungi Amico), (Accesso Utente)<(Confronta Risultati con Amici), (Confronta Risultati con Amici) > (Mostra Risultati Migliori)'>
 
 4.0 L'utente dopo aver effettuato l'accesso avvia la modalità duella, il sitema deve verificare la vicinanza tra i due dispositivi. L'utente invita un proprio amico o uno sconosciuto alla sfida alla sfida. Al termine della discesa il sistema confronta in automatico i risultati e decreta un vincitore
-
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N.4.0{bg:beige}), [Utente]- (Accesso Utente), (Accesso Utente) - (Attiva Modalità Duella), (Attiva Modalità Duella) < (Invita Amico a Duella), (Attiva Modalità Duella) < (Invita utente sconosciuto a Duella), [Sistema]-(Confronta Risultati Duella), (Invita Amico a Duella)>(Ferma Registrazione Discesa Duella), (Invita utente sconosciuto a Duella) > (Ferma Registrazione Discesa Duella), [Sistema]-(Verifica Vicinanza), (Confronta Risultati Duella) > (Determina Vincitore Duella)'>
 
+5.0 Gli utenti possono registrarsi creando un account personale, il sistema salva le informazioni e invia conferma email.
+<img src='http://yuml.me/diagram/scruffy/usecase/(note: N.2{bg:beige}), [Utente]-(Registrazione), [Sistema]-(Salva dati registrazione), [Sistema]-(Invio email conferma registrazione)'>
+
+5.1 Gli utenti possono accedere all'applicazione inserendo le proprie credenziali.
+<img src='http://yuml.me/diagram/scruffy/usecase/(note: N.2{bg:beige}), [Utente]-(Accesso all'Account), [Sistema]-(Verifica credenziali), (Verifica credenziali)<(Accesso negato), (Verifica credenziali)<(Accesso consentito)'>
 
 
       
