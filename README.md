@@ -210,7 +210,7 @@ Requisiti dell'applicazione:
 2.2 Il sistema rileva in automatico la valanga e invia una segnalazione di soccorso.
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 2.2{bg:beige}), [Sistema iSki] - (Monitora Sensori), (Monitora Sensori) < (Rileva Valanga), (Rileva Valanga) > (Attiva Geolocalizzatore GPS), (Rileva Valanga) > (Invia Segnalazione), (Invia Segnalazione)<(Fornisce Feedback)'>
 
-3.1 L'utente accede e aggiunge un amico.
+3.1 L'utente accede e aggiunge un amico. ---------------------------------------------------
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 3.1{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)-(Aggiungi Amico)'>
 
 3.2 L'utente visualizza la leaderboard globale anche senza aver effettuato l'accesso.
@@ -228,13 +228,13 @@ Requisiti dell'applicazione:
 5.2 L'utente tenta di accedere all'applicazione inserendo le credenziali.
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 5.2{bg:beige}), [Utente]-(Accesso account), [Sistema]-(Verifica credenziali), (Verifica credenziali)<(Credenziali errate), (Verifica credenziali)<(Accesso consentito)'>
 
-5.3 L'utente chiede un ripristino della password.
+5.3 L'utente chiede un ripristino della password. ----------------------------------------------
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 5.3{bg:beige}), [Utente]-(Reset Password), (Reset Password) > (Specifica email di riferimento), [Sistema iSki]-(Invio istruzioni per reimpostare password)'>
 
 5.4 L'utente tenta l'accesso all'account e in caso di credenziali errate può richiedere di reimpostare la password.
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 5.4{bg:beige}), [Utente]-(Accesso account), [Utente] - (Reset Password), (Reset Password) > (Specifica Email di riferimento), [Sistema]-(Verifica credenziali), (Verifica credenziali)<(Credenziali errate), (Verifica credenziali)<(Accesso consentito), [Sistema]-(Invio istruzioni per reimpostare password)'>
 
-5.5 L'utente attiva l'autenticazione a 2FA per avere maggiore sicurezza
+5.5 L'utente attiva l'autenticazione a 2FA per avere maggiore sicurezza. ----------------------
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 5.5{bg:beige}), [Utente]-(Attivazione 2FA)'>
 
 5.6 L'utente tenta l'accesso ad un account e in caso di accesso consentito autenticazione a 2FA verifica accesso tramite email.
