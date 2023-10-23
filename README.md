@@ -216,9 +216,11 @@ Requisiti dell'applicazione:
 3.2 L'utente effettua l'accesso aggiunge un amico o confronta i risultati dei prori amici aggiungi in ordine di punteggio.
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N.3.2{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)<(Aggiungi Amico), (Accesso Utente)<(Confronta Risultati con Amici), (Confronta Risultati con Amici) > (Mostra Risultati Migliori)'>
 
-4. L'utente dopo aver effettuato l'accesso avvia la modalità duella, il sitema deve verificare la vicinanza tra i due dispositivi. L'utente invita un proprio amico alla sfida. Al termine della discesa il sistema confronta in automatico i risultati e decreta un vincitore
+4.0 L'utente dopo aver effettuato l'accesso avvia la modalità duella, il sitema deve verificare la vicinanza tra i due dispositivi. L'utente invita un proprio amico o uno sconosciuto alla sfida alla sfida. Al termine della discesa il sistema confronta in automatico i risultati e decreta un vincitore
 
-<img src='http://yuml.me/diagram/scruffy/usecase/(note: N.4{bg:beige}), [Utente]- (Accesso Utente), (Accesso Utente) - (Attiva Modalità Duella), (Attiva Modalità Duella) < (Invita Amico a Duella), [Sistema]-(Confronta Risultati Duella), (Invita Amico a Duella)>(Ferma Registrazione Discesa Duella), [Sistema]-(Verifica Vicinanza), (Confronta Risultati Duella) > (Determina Vincitore Duella)'>
+<img src='http://yuml.me/diagram/scruffy/usecase/(note: N.4.0{bg:beige}), [Utente]- (Accesso Utente), (Accesso Utente) - (Attiva Modalità Duella), (Attiva Modalità Duella) < (Invita Amico a Duella), (Attiva Modalità Duella) < (Invita utente sconosciuto a Duella), [Sistema]-(Confronta Risultati Duella), (Invita Amico a Duella)>(Ferma Registrazione Discesa Duella), (Invita utente sconosciuto a Duella) > (Ferma Registrazione Discesa Duella), [Sistema]-(Verifica Vicinanza), (Confronta Risultati Duella) > (Determina Vincitore Duella)'>
+
+
 
       
 
