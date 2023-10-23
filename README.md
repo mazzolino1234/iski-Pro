@@ -209,7 +209,7 @@ Requisiti dell'applicazione:
 
 3. L'utente vuole visualizzare la leaderboard globale e deve effettuare l'accesso in caso volesse confrontare i propri dati con quelli di amici e utente globali, deve poter inoltre aggiugnere un amico.
 
-<img src='http://yuml.me/diagram/scruffy/usecase/(note: N.3{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)>(Aggiungi Amico), (Accesso Utente)>(Confronta Risultati con Amici), (Accesso Utente)>(Confronto Risultati con Utenti Globali), (Confronto Risultati con Utenti Globali) > (Mostra Risultati Migliori), (Confronta Risultati con Amici) > (Mostra Risultati Migliori), [Utente]-(Mostra Leaderboard Globale)'>
+<img src='http://yuml.me/diagram/scruffy/usecase/(note: N.3{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)<(Aggiungi Amico), (Accesso Utente)<(Confronta Risultati con Amici), (Accesso Utente)<(Confronto Risultati con Utenti Globali), (Confronto Risultati con Utenti Globali) > (Mostra Risultati Migliori), (Confronta Risultati con Amici) > (Mostra Risultati Migliori), [Utente]-(Mostra Leaderboard Globale)'>
 
 4. L'utente dopo aver effettuato l'accesso avvia la modalità duella, il sitema deve verificare la vicinanza tra i due dispositivi. L'utente invita un proprio amico alla sfida. Al termine della discesa il sistema confronta in automatico i risultati e decreta un vincitore
 
