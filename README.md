@@ -218,7 +218,7 @@ Requisiti dell'applicazione:
 
 4. L'utente dopo aver effettuato l'accesso avvia la modalità duella, il sitema deve verificare la vicinanza tra i due dispositivi. L'utente invita un proprio amico alla sfida. Al termine della discesa il sistema confronta in automatico i risultati e decreta un vincitore
 
-<img src='http://yuml.me/diagram/scruffy/usecase/(note: N.4{bg:beige}), [Utente]- (Accesso Utente), (Accesso Utente) - (Attiva Modalità Duella), (Attiva Modalità Duella) - (Invita Amico a Duella), [Sistema]-(Confronta Risultati Duella), (Invita Amico a Duella)>(Ferma Registrazione Discesa Duella), [Sistema]-(Verifica Vicinanza), (Confronta Risultati Duella) > (Determina Vincitore Duella)'>
+<img src='http://yuml.me/diagram/scruffy/usecase/(note: N.4{bg:beige}), [Utente]- (Accesso Utente), (Accesso Utente) - (Attiva Modalità Duella), (Attiva Modalità Duella) < (Invita Amico a Duella), [Sistema]-(Confronta Risultati Duella), (Invita Amico a Duella)>(Ferma Registrazione Discesa Duella), [Sistema]-(Verifica Vicinanza), (Confronta Risultati Duella) > (Determina Vincitore Duella)'>
 
       
 
