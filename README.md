@@ -234,6 +234,11 @@ Requisiti dell'applicazione:
 5.3 L'utente tenta l'accesso all'account e in caso di credenziali errate può richiedere di reimpostare la password.
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N.2{bg:beige}), [Utente]-(Accesso account), [Utente] - (Reset Password), (Reset Password) > (Specifica Email di riferimento), [Sistema]-(Verifica credenziali), (Verifica credenziali)<(Credenziali errate), (Verifica credenziali)<(Accesso consentito), [Sistema]-(Invio istruzioni per reimpostare password)'>
 
+5.4 L'utente attiva l'autenticazione a 2FA per avere maggiore sicurezza
+<img src='http://yuml.me/diagram/scruffy/usecase/(note: N.2{bg:beige}), [Utente]-(Attivazione 2FA)'>
+
+5.5 L'utente tenta l'accesso ad un account e in caso di accesso consentito autenticazione a 2FA verifica accesso tramite email.
+<img src='http://yuml.me/diagram/scruffy/usecase/(note: N.2{bg:beige}), [Utente]-(Accesso account), [Utente] - (Reset Password), (Reset Password) > (Specifica Email di riferimento), [Sistema]-(Verifica credenziali), (Verifica credenziali)<(Credenziali errate), (Verifica credenziali)<(Accesso consentito), (Accesso consentito) > (Verifica 2FA tramite email), [Sistema]-(Invio istruzioni per reimpostare password)'>
 
 
       
