@@ -191,6 +191,8 @@ Requisiti dell'applicazione:
        * Nella versione premium sarà possibile creare e stampare (PDF) un report automatico dei record di sciate.
     * 9.6 Modalità duella ampliata:
        * Tramite la versione premium dell'applicazione il numero di contendenti nella modalità duella (PUNTO 4) sarà ampliato da 2 a 4 persone massime.
+    * 9.1 Condivisione ampliata:
+      * La modalità premium consente la condivisione di più risultati contemporanteamente.
      
 10. Soddisfazione requisiti GDPR:
     * L'applicazione deve rispettare le norme europee, il regolamento generale sulla protezione dei dati (GDPR).
@@ -250,8 +252,10 @@ Requisiti dell'applicazione:
 <img src="http://yuml.me/diagram/scruffy/usecase/(note: N. 6.3{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)-(Visualizza statistiche)" >
 
 7.1 L'utente per poter utilizzare l'applicazione deve accettare il tracciamento GPS.
-<img src="http://yuml.me/diagram/scruffy/usecase/(note: N. 6.3{bg:beige}), [Utente]-(Autorizzazione GPS), (Autorizzazione GPS) < (Accetta condizione), (Autorizzazione GPS) < (Rifiuta condizione), [Sistema]-(Invio notifica autorizzazione)" >
+<img src="http://yuml.me/diagram/scruffy/usecase/(note: N. 7.1{bg:beige}), [Utente]-(Autorizzazione GPS), (Autorizzazione GPS) < (Accetta condizione), (Autorizzazione GPS) < (Rifiuta condizione), [Sistema]-(Invio notifica autorizzazione)" >
 
+8.1 L'utente loggato condivide i propri risultati di una sola discesa selezionata.
+<img src="http://yuml.me/diagram/scruffy/usecase/(note: N. 7.1{bg:beige}), [Utente]-(Accesso utente), (Accesso utente) - (Visualizzazione dati discese), (Visualizzazione dati discese) - (Selezione dati da condividere), (Selezione dati da condividere)<(Selezione piattaforma di condivisione),(Selezione dati da condividere)<(Selezione destinatario), [Sistema]-(Invio notifica condivisione effettuata)" >
       
 
 
