@@ -198,7 +198,7 @@ Requisiti dell'applicazione:
 <img src="http://yuml.me/diagram/scruffy/usecase/(note: N.1{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)>(Avviare registrazione discesa), (Avviare registrazione discesa)>(Termina registrazione discesa), (Termina registrazione discesa)<(Invio notifica registrazione dati) , [Sistema iSki]-(Registrazione velocità massima), [Sistema iSki] - (Calcolo velocità media), [Sistema iSki] - (Registrazione lunghezza percorso), [Sistema iSki] - (Registrazione tempo impiegato)" >
 
 1.1 L'utente dopo aver effettuato l'accesso visualizza i dati delle discese precedenti.
-<img src="http://yuml.me/diagram/scruffy/usecase/(note: N.1.1{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)>(Visualizza record discese)" >
+<img src="http://yuml.me/diagram/scruffy/usecase/(note: N.1.1{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)<(Visualizza record discese)" >
 
 2. L'utente deve poter diramare una segnalazione di soccorso con la sua esatta posizione ai contatti di emergenza più vicini, scelti dal sistema, in caso di valange anche senza aver efettuato l'accesso avendo però la posizione GPS attiva.
 
