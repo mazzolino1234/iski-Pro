@@ -199,34 +199,41 @@ Requisiti dell'applicazione:
 **CASI D'USO:**
 
 1. L'utente, solo dopo aver effettuato l'accesso, deve avere la possibilità di avviare la registrazione della propria discesa e di interromperla.
-<img src="http://yuml.me/diagram/scruffy/usecase/(note: N.1{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)-(Avviare registrazione discesa), (Avviare registrazione discesa)>(Termina registrazione discesa), (Termina registrazione discesa)<(Invio notifica registrazione dati) , [Sistema iSki]-(Registrazione velocità massima), [Sistema iSki] - (Calcolo velocità media), [Sistema iSki] - (Registrazione lunghezza percorso), [Sistema iSki] - (Registrazione tempo impiegato)" >
+<img src="http://yuml.me/diagram/scruffy/usecase/(note: N. 1.0{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)-(Avviare registrazione discesa), (Avviare registrazione discesa)>(Termina registrazione discesa), (Termina registrazione discesa)<(Invio notifica registrazione dati) , [Sistema iSki]-(Registrazione velocità massima), [Sistema iSki] - (Calcolo velocità media), [Sistema iSki] - (Registrazione lunghezza percorso), [Sistema iSki] - (Registrazione tempo impiegato)" >
 
 1.1 L'utente dopo aver effettuato l'accesso visualizza i dati delle discese precedenti.
-<img src="http://yuml.me/diagram/scruffy/usecase/(note: N.1.1{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)-(Visualizza record discese)" >
+<img src="http://yuml.me/diagram/scruffy/usecase/(note: N. 1.1{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)-(Visualizza record discese)" >
 
 2. L'utente deve poter diramare una segnalazione di soccorso con la sua esatta posizione ai contatti di emergenza più vicini, scelti dal sistema, in caso di valange anche senza aver efettuato l'accesso avendo però la posizione GPS attiva.
-<img src="http://yuml.me/diagram/scruffy/usecase/(note: N.2{bg:beige}), [Utente non autenticato]-(Invio segnalazione di soccorso), [Utente non autenticato]-(Attivazione GPS), [Utente non autenticato]-(Accesso Utente),  (Invio segnalazione di soccorso)>(Invio posizione GPS), (Invio posizione GPS)>(Determinazione posizione GPS), (Invio segnalazione di soccorso)>(Notifica confermo invio)">
+<img src="http://yuml.me/diagram/scruffy/usecase/(note: N. 2.0{bg:beige}), [Utente non autenticato]-(Invio segnalazione di soccorso), [Utente non autenticato]-(Attivazione GPS), [Utente non autenticato]-(Accesso Utente),  (Invio segnalazione di soccorso)>(Invio posizione GPS), (Invio posizione GPS)>(Determinazione posizione GPS), (Invio segnalazione di soccorso)>(Notifica confermo invio)">
 
 2.1 Il sistema rileva in automatico la valanga e invia una segnalazione di soccorso.
-<img src='http://yuml.me/diagram/scruffy/usecase/(note: N.2{bg:beige}), [Sistema iSki] - (Monitora Sensori), (Monitora Sensori) < (Rileva Valanga), (Rileva Valanga) > (Attiva Geolocalizzatore GPS), (Rileva Valanga) > (Invia Segnalazione), (Invia Segnalazione)<(Fornisce Feedback)'>
+<img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 2.1{bg:beige}), [Sistema iSki] - (Monitora Sensori), (Monitora Sensori) < (Rileva Valanga), (Rileva Valanga) > (Attiva Geolocalizzatore GPS), (Rileva Valanga) > (Invia Segnalazione), (Invia Segnalazione)<(Fornisce Feedback)'>
 
 3.0 L'utente accede e aggiunge un amico.
-<img src='http://yuml.me/diagram/scruffy/usecase/(note: N.3.0{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)-(Aggiungi Amico)'>
+<img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 3.0{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)-(Aggiungi Amico)'>
 
 3.1 L'utente visualizza la leaderboard globale anche senza aver effettuato l'accesso.
-<img src='http://yuml.me/diagram/scruffy/usecase/(note: N.3.1{bg:beige}), [Utente]-(Accesso Utente),  [Utente]-(Mostra Leaderboard Globale)'>
+<img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 3.1{bg:beige}), [Utente]-(Accesso Utente),  [Utente]-(Mostra Leaderboard Globale)'>
 
 3.2 L'utente effettua l'accesso aggiunge un amico o confronta i risultati dei prori amici aggiungi in ordine di punteggio.
-<img src='http://yuml.me/diagram/scruffy/usecase/(note: N.3.2{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)<(Aggiungi Amico), (Accesso Utente)<(Confronta Risultati con Amici), (Confronta Risultati con Amici) > (Mostra Risultati Migliori)'>
+<img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 3.2{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)<(Aggiungi Amico), (Accesso Utente)<(Confronta Risultati con Amici), (Confronta Risultati con Amici) > (Mostra Risultati Migliori)'>
 
 4.0 L'utente dopo aver effettuato l'accesso avvia la modalità duella, il sitema deve verificare la vicinanza tra i due dispositivi. L'utente invita un proprio amico o uno sconosciuto alla sfida alla sfida. Al termine della discesa il sistema confronta in automatico i risultati e decreta un vincitore
-<img src='http://yuml.me/diagram/scruffy/usecase/(note: N.4.0{bg:beige}), [Utente]- (Accesso Utente), (Accesso Utente) - (Attiva Modalità Duella), (Attiva Modalità Duella) < (Invita Amico a Duella), (Attiva Modalità Duella) < (Invita utente sconosciuto a Duella), [Sistema]-(Confronta Risultati Duella), (Invita Amico a Duella)>(Ferma Registrazione Discesa Duella), (Invita utente sconosciuto a Duella) > (Ferma Registrazione Discesa Duella), [Sistema]-(Verifica Vicinanza), (Confronta Risultati Duella) > (Determina Vincitore Duella)'>
+<img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 4.0{bg:beige}), [Utente]- (Accesso Utente), (Accesso Utente) - (Attiva Modalità Duella), (Attiva Modalità Duella) < (Invita Amico a Duella), (Attiva Modalità Duella) < (Invita utente sconosciuto a Duella), [Sistema]-(Confronta Risultati Duella), (Invita Amico a Duella)>(Ferma Registrazione Discesa Duella), (Invita utente sconosciuto a Duella) > (Ferma Registrazione Discesa Duella), [Sistema]-(Verifica Vicinanza), (Confronta Risultati Duella) > (Determina Vincitore Duella)'>
 
 5.0 Gli utenti possono registrarsi creando un account personale, il sistema salva le informazioni e invia conferma email.
-<img src='http://yuml.me/diagram/scruffy/usecase/(note: N.2{bg:beige}), [Utente]-(Registrazione), [Sistema]-(Salva dati registrazione), [Sistema]-(Invio email conferma registrazione)'>
+<img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 5.0{bg:beige}), [Utente]-(Registrazione), [Sistema]-(Salva dati registrazione), [Sistema]-(Invio email conferma registrazione)'>
 
-5.1 Gli utenti possono accedere all'applicazione inserendo le proprie credenziali.
-<img src='http://yuml.me/diagram/scruffy/usecase/(note: N.2{bg:beige}), [Utente]-(Accesso all'Account), [Sistema]-(Verifica credenziali), (Verifica credenziali)<(Accesso negato), (Verifica credenziali)<(Accesso consentito)'>
+5.1 L'utente tenta di accedere all'applicazione inserendo le credenziali.
+<img src='http://yuml.me/diagram/scruffy/usecase/(note: N.2{bg:beige}), [Utente]-(Accesso account), [Sistema]-(Verifica credenziali), (Verifica credenziali)<(Credenziali errate), (Verifica credenziali)<(Accesso consentito)'>
+
+5.2 L'utente chiede un ripristino della password.
+<img src='http://yuml.me/diagram/scruffy/usecase/(note: N.2{bg:beige}), [Utente]-(Reset Password), (Reset Password) > (Specifica email di riferimento), [Sistema iSki]-(Invio istruzioni per reimpostare password)'>
+
+5.3 L'utente tenta l'accesso all'account e in caso di credenziali errate può richiedere di reimpostare la password.
+<img src='http://yuml.me/diagram/scruffy/usecase/(note: N.2{bg:beige}), [Utente]-(Accesso account), [Utente] - (Reset Password), (Reset Password) > (Specifica Email di riferimento), [Sistema]-(Verifica credenziali), (Verifica credenziali)<(Credenziali errate), (Verifica credenziali)<(Accesso consentito), [Sistema iSki]-(Invio istruzioni per reimpostare password)'>
+
 
 
       
