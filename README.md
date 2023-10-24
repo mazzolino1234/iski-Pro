@@ -256,7 +256,12 @@ Requisiti dell'applicazione:
 
 8.1 L'utente loggato condivide i propri risultati di una sola discesa selezionata.
 <img src="http://yuml.me/diagram/scruffy/usecase/(note: N. 8.1{bg:beige}), [Utente]-(Accesso utente), (Accesso utente) < (Selezione dati da condividere), (Selezione dati da condividere)>(Selezione piattaforma di condivisione),(Selezione dati da condividere)>(Selezione destinatario), [Sistema]-(Invio notifica condivisione effettuata)" >
-      
+
+9.1 L'utente loggato attiva la modalità premium e paga il compenso mensile di attivazione, pagamento confermato.
+<img src='http://yuml.me/diagram/scruffy/usecase/(note: N.2{bg:beige}), [Utente] - (Accesso Utente), (Accesso Utente) < (Attiva Modalità Premium), (Attiva Modalità Premium) > (Effettua Pagamento), (Attiva Modalità Premium) > (Aggiungi carta), [Banca] - (Elabora Pagamento), (Elabora Pagamento) > (Invio risultato conferma), [Sistema] - (Attivazione modalità premium)'>
+
+9.2 L'utente loggato prova ad attivare la modalità premium ma il pagamento non va a buon fine.
+ <img src='http://yuml.me/diagram/scruffy/usecase/(note: N.2{bg:beige}), [Utente] - (Accesso Utente), (Accesso Utente) < (Attiva Modalità Premium), (Attiva Modalità Premium) > (Effettua Pagamento), (Attiva Modalità Premium) > (Aggiungi carta), [Banca] - (Elabora Pagamento), (Elabora Pagamento) > (Errore nel pagamento), [Sistema] - (Invio notifica pagamento non effettuato)'>     
 
 
 
