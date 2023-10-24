@@ -249,7 +249,7 @@ Requisiti dell'applicazione:
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 6.2{bg:beige}), [Utente] - (Accesso utente), (Accesso utente) < (Modifica profilo), (Modifica nome)^(Modifica profilo), (Modifica cognome)^(Modifica profilo), (Modifica data di nascita)^(Modifica profilo), (Modifica email)^(Modifica profilo), (Modifica nome utente)^(Modifica profilo) , (Modifica password)^(Modifica profilo), (Modifica immagine profilo)^(Modifica profilo)'>
 
 6.3 L'utente dopo aver effettuato l'accesso visualizza le statistiche delle proprie discese.
-<img src="http://yuml.me/diagram/scruffy/usecase/(note: N. 6.3{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)-(Visualizza statistiche)" >
+<img src="http://yuml.me/diagram/scruffy/usecase/(note: N. 6.3{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)<(Visualizza statistiche)" >
 
 7.1 L'utente per poter utilizzare l'applicazione deve accettare il tracciamento GPS.
 <img src="http://yuml.me/diagram/scruffy/usecase/(note: N. 7.1{bg:beige}), [Utente]-(Autorizzazione GPS), (Autorizzazione GPS) < (Accetta condizione), (Autorizzazione GPS) < (Rifiuta condizione), [Sistema]-(Invio notifica autorizzazione)" >
