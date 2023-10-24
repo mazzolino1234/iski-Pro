@@ -243,7 +243,7 @@ Requisiti dell'applicazione:
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 5.6{bg:beige}), [Utente]-(Accesso account), [Utente] - (Reset Password), (Reset Password) > (Specifica Email di riferimento), [Sistema]-(Verifica credenziali), (Verifica credenziali)<(Credenziali errate), (Verifica credenziali)<(Accesso consentito), (Accesso consentito) > (Verifica 2FA tramite email), [Sistema]-(Invio istruzioni per reimpostare password)'>
 
 6.1 L'utente dopo aver effettuato l'accesso visualizza il suo profilo utente
-<img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 6.1{bg:beige}), [Utente] - (Accesso utente), (Accesso utente) - (Visualizzazione profilo)'>
+<img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 6.1{bg:beige}), [Utente] - (Accesso utente), (Accesso utente) < (Visualizzazione profilo)'>
 
 6.2 L'utente dopo l'accesso ha la possibilità di modificare le proprie informazioni relative all'account (nome,cognome,data di nascita,email,nome utente,password,immagine profilo).
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 6.2{bg:beige}), [Utente] - (Accesso utente), (Accesso utente) - (Modifica profilo), (Modifica profilo) < (Modifica nome), (Modifica profilo) < (Modifica cognome), (Modifica profilo) < (Modifica data di nascita), (Modifica profilo) < (Modifica email), (Modifica profilo) < (Modifica nome utente), (Modifica profilo) < (Modifica password), (Modifica profilo) < (Modifica immagine profilo)'>
