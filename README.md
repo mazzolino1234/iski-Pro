@@ -201,7 +201,7 @@ Requisiti dell'applicazione:
 **CASI D'USO:**
 
 1.1 L'utente, solo dopo aver effettuato l'accesso, deve avere la possibilità di avviare la registrazione della propria discesa e di interromperla.
-<img src="http://yuml.me/diagram/scruffy/usecase/(note: N. 1.1{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)-(Avviare registrazione discesa), (Avviare registrazione discesa)>(Termina registrazione discesa), (Termina registrazione discesa)<(Invio notifica registrazione dati) , [Sistema iSki]-(Registrazione velocità massima), [Sistema iSki] - (Calcolo velocità media), [Sistema iSki] - (Registrazione lunghezza percorso), [Sistema iSki] - (Registrazione tempo impiegato)" >
+<img src="http://yuml.me/diagram/scruffy/usecase/(note: N. 1.1{bg:beige}), [Utente]>(Accesso Utente), (Accesso Utente)-(Avviare registrazione discesa), (Avviare registrazione discesa)>(Termina registrazione discesa), (Termina registrazione discesa)<(Invio notifica registrazione dati) , [Sistema iSki]-(Registrazione velocità massima), [Sistema iSki] - (Calcolo velocità media), [Sistema iSki] - (Registrazione lunghezza percorso), [Sistema iSki] - (Registrazione tempo impiegato)" >
 
 1.2 L'utente dopo aver effettuato l'accesso visualizza i dati delle discese precedenti.
 <img src="http://yuml.me/diagram/scruffy/usecase/(note: N. 1.2{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)-(Visualizza record discese)" >
