@@ -201,10 +201,10 @@ Requisiti dell'applicazione:
 **CASI D'USO:**
 
 1.1 L'utente, solo dopo aver effettuato l'accesso, avvia la registrazione discesa e al termine la interrompe.
-<img src="http://yuml.me/diagram/scruffy/usecase/(note: N. 1.1{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)>(Avviare registrazione discesa), (Avviare registrazione discesa)>(Termina registrazione discesa), [Sistema iSki]-(Calcolo registrazione discesa),(Registrazione velocità massima)^(Calcolo registrazione discesa), (Calcolo velocità media)^(Calcolo registrazione discesa), (Registrazione lunghezza percorso)^(Calcolo registrazione discesa), (Registrazione tempo impiegato)^(Calcolo registrazione discesa)" >
+<img src="http://yuml.me/diagram/scruffy/usecase/(note: N. 1.1{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)<(Avviare registrazione discesa), (Avviare registrazione discesa)>(Termina registrazione discesa), [Sistema iSki]-(Calcolo registrazione discesa),(Registrazione velocità massima)^(Calcolo registrazione discesa), (Calcolo velocità media)^(Calcolo registrazione discesa), (Registrazione lunghezza percorso)^(Calcolo registrazione discesa), (Registrazione tempo impiegato)^(Calcolo registrazione discesa)" >
 
 1.2 L'utente dopo aver effettuato l'accesso visualizza i dati delle discese precedenti.
-<img src="http://yuml.me/diagram/scruffy/usecase/(note: N. 1.2{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)-(Visualizza record discese)" >
+<img src="http://yuml.me/diagram/scruffy/usecase/(note: N. 1.2{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)<(Visualizza record discese)" >
 
 2.1 L'utente deve poter diramare una segnalazione di soccorso con la sua esatta posizione ai contatti di emergenza più vicini, scelti dal sistema, in caso di valange anche senza aver efettuato l'accesso avendo però la posizione GPS attiva.
 <img src="http://yuml.me/diagram/scruffy/usecase/(note: N. 2.1{bg:beige}), [Utente non autenticato]-(Invio segnalazione di soccorso), [Utente non autenticato]-(Attivazione GPS), [Utente non autenticato]-(Accesso Utente),  (Invio segnalazione di soccorso)>(Invio posizione GPS), (Invio posizione GPS)>(Determinazione posizione GPS), (Invio segnalazione di soccorso)>(Notifica confermo invio)">
