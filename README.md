@@ -204,7 +204,7 @@ Requisiti dell'applicazione:
 ***
 10. Soddisfazione requisiti GDPR:
     * L'applicazione deve rispettare le norme europee, il regolamento generale sulla protezione dei dati (GDPR).
-   
+***
 
 **CASI D'USO:**
 
@@ -309,7 +309,7 @@ Requisiti dell'applicazione:
 
 ***
 9.7 L'utente premium seleziona un record dall'archivio dati e il sistema crea e salva nel dispositvo il file PDF.
-<img src='http://yuml.me/diagram/scruffy/usecase/(note: N.2{bg:beige}), [Utente Premium]-(Visualizza record discese), (Visualizza record discese) > (Selezione record), [Sistema iSki]-(Creazione report), [Sistema iSki]-(Salvataggio report), (Salvataggio report) > (Autorizzazione utente), '>
+<img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 9.7{bg:beige}), [Utente Premium]-(Visualizza record discese), (Visualizza record discese) > (Selezione record), [Sistema iSki]-(Creazione report), [Sistema iSki]-(Salvataggio report), (Salvataggio report) > (Autorizzazione utente), '>
 
 
 
