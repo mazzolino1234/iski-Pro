@@ -215,7 +215,7 @@ Requisiti dell'applicazione:
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 3.1{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)<(Aggiungi Amico)'>
 
 3.2 L'utente visualizza la leaderboard globale anche senza aver effettuato l'accesso.
-<img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 3.2{bg:beige}), [Utente]-(Accesso Utente),  [Utente]-(Mostra Leaderboard Globale), (Accesso Utente)<(Mostra Leaderboard Globale)'>
+<img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 3.2{bg:beige}), [Utente]-(Accesso Utente),  [Utente]-(Visualizza Leaderboard Globale)'>
 
 3.3 L'utente effettua l'accesso aggiunge un amico o confronta i risultati dei prori amici aggiungi in ordine di punteggio.
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 3.3{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)<(Aggiungi Amico), (Accesso Utente)<(Confronta Risultati con Amici), (Confronta Risultati con Amici) > (Mostra Risultati Migliori)'>
