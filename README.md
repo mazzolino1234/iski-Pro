@@ -166,8 +166,7 @@ Requisiti dell'applicazione:
 
 9. Modalità premium:
     * L'applicazione, tramite pagamento mensile, permetterà di avere accesso a maggiori funzionalità.
-    9.1 Sistema di tracciamento migliorato.
-    9.2 Mappa discesa:
+    9.1 Mappa discesa:
        * Requisiti funzionali:
           * Utente:
             * La mappa deve permettere all'utente di muoversi e di visualizzare gli impianti scsiistici attivi e le piste aperte con relativa difficoltà di discesa.
@@ -183,15 +182,15 @@ Requisiti dell'applicazione:
        * Requisiti di dominio:
          * L'applicazione deve utilizzare dati derivanti da tecnologie presenti negli impianti.
        
-    * 9.3 Confronto automatico:
+    * 9.2 Confronto discese:
        * Tramite la modalità premium sarà possibile confrontare la discesa effettuata con una precedente in modo tale da avere un confronto reale.
-    * 9.4 Modalità fuori pista:
+    * 9.3 Modalità fuori pista:
         * Nella modalità premium deve essere presente la possibilità di scegliere la modalità fuori pista in modo da registrare le sciate su neve fresca.
-    * 9.5 Report:
+    * 9.4 Report:
        * Nella versione premium sarà possibile creare e stampare (PDF) un report automatico dei record di sciate.
-    * 9.6 Modalità duella ampliata:
+    * 9.5 Modalità duella ampliata:
        * Tramite la versione premium dell'applicazione il numero di contendenti nella modalità duella (PUNTO 4) sarà ampliato da 2 a 4 persone massime.
-    * 9.1 Condivisione ampliata:
+    * 9.6 Condivisione ampliata:
       * La modalità premium consente la condivisione di più risultati contemporanteamente.
      
 10. Soddisfazione requisiti GDPR:
@@ -261,8 +260,22 @@ Requisiti dell'applicazione:
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N.2{bg:beige}), [Utente] - (Accesso Utente), (Accesso Utente) < (Attiva Modalità Premium), (Attiva Modalità Premium) > (Effettua Pagamento), (Attiva Modalità Premium) > (Aggiungi carta), [Banca] - (Elabora Pagamento), (Elabora Pagamento) > (Invio risultato conferma), [Sistema] - (Attivazione modalità premium)'>
 
 9.2 L'utente loggato prova ad attivare la modalità premium ma il pagamento non va a buon fine.
- <img src='http://yuml.me/diagram/scruffy/usecase/(note: N.2{bg:beige}), [Utente] - (Accesso Utente), (Accesso Utente) < (Attiva Modalità Premium), (Attiva Modalità Premium) > (Effettua Pagamento), (Attiva Modalità Premium) > (Aggiungi carta), [Banca] - (Elabora Pagamento), (Elabora Pagamento) > (Errore nel pagamento), [Sistema] - (Invio notifica pagamento non effettuato)'>     
+ <img src='http://yuml.me/diagram/scruffy/usecase/(note: N.2{bg:beige}), [Utente] - (Accesso Utente), (Accesso Utente) < (Attiva Modalità Premium), (Attiva Modalità Premium) > (Effettua Pagamento), (Attiva Modalità Premium) > (Aggiungi carta), [Banca] - (Elabora Pagamento), (Elabora Pagamento) > (Errore nel pagamento), [Sistema] - (Invio notifica pagamento non effettuato)'> 
 
+ 9.3 L'utente premium accede alla mappa e visualizza gli impianti e le discese disponibili tramite la mappa.
+ <img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 9.3{bg:beige}), [Utente Premium]-(Visualizza Mappa in Modalità Satellite), (Visualizza Mappa) < (Visualizza Piste Sciistiche aperte), (Visualizza Mappa in Modalità Satellite) < (Visualizza Impianti sciistici attivi), [Centralina impianto] - (Invio informazioni impianti e discese aperte e attive)'>
+
+ 9.4 L'utente premium visualizza i record delle sue discese e visualizza il tracciato fatto tramite mappa.
+<img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 9.4{bg:beige}), [Utente Premium]-(Visualizza record discese), (Visualizza record discese)>(Tracciato mappa della discesa), [Sistema iSki]-(Realizza tracciato discesa)'>
+
+9.5 L'utente premium seleziona due o più discese effettuate e il sitema restituisce statistiche a confronto e risultato migliore assegnando un punteggio ad ogni discesa.
+<img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 9.5{bg:beige}), [Utente Premium]-(Visualizza record discese), (Visualizza record discese)>(Selezione 2+ record), [Sistema iSki]-(Confronto record selezionati), [Sistema iSki]-(Restituzione discesa migliore), [Sistema iSki]-(Calcolo statistiche discese)'>
+
+9.6 L'utente premium accede e attiva la modalità fuori pista, il sistema invia notifica relativa alla stabilità della neve.
+<img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 9.6{bg:beige}), [Utente Premium]-(Attiva modalità fuori pista), (Attiva modalità fuori pista) < (Disattiva modalità fuori pista), [Sistema iSki]-(Invio notifica qualità neve), (Invio notifica qualità neve) < (Notifica di pericolo per neve instabile), [Centralina impianto sciistico]-(Studio del manto nevoso), (Studio del manto nevoso) > (Invio dati al sistema)'>
+
+9.7 L'utente premium seleziona un record dall'archivio dati e il sistema crea e salva nel dispositvo il file PDF.
+<img src='http://yuml.me/diagram/scruffy/usecase/(note: N.2{bg:beige}), [Utente Premium]-(Visualizza record discese), (Visualizza record discese) > (Selezione record), [Sistema iSki]-(Creazione report), [Sistema iSki]-(Salvataggio report), (Salvataggio report) > (Autorizzazione utente), '>
 
 
 
