@@ -25,7 +25,7 @@ Requisiti dell'applicazione:
      * L'applicazione deve rispettare le leggi e i regolamenti relativi alla raccolta e alla conservazione dei dati personali.
      *  L'applicazione deve essere compatibile con i dispositivi GPS per la registrazione dei dati delle discese.
      
-
+***
 2. Geolocalizzatore GPS per Valanghe:
    * Requisiti funzionali:
      * Utente:
