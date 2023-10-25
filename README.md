@@ -214,7 +214,7 @@ Requisiti dell'applicazione:
 3.1 L'utente accede e aggiunge un amico. ---------------------------------------------------
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 3.1{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)<(Aggiungi Amico)'>
 
-3.2 L'utente visualizza la leaderboard globale anche senza aver effettuato l'accesso.
+3.2 L'utente visualizza la leaderboard globale anche senza aver effettuato l'accesso. ------
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 3.2{bg:beige}), [Utente]-(Accesso Utente),  [Utente]-(Visualizza Leaderboard Globale)'>
 
 3.3 L'utente effettua l'accesso aggiunge un amico o confronta i risultati dei prori amici aggiungi in ordine di punteggio.
