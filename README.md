@@ -45,7 +45,7 @@ Requisiti dell'applicazione:
      * La privacy dell'utente deve essere protetta e crittografata.
      * Si devono impedire accessi indesiderati da parte di utenti esterni.
 
-
+***
 3. Confronto con Amici e Utenti Globali:
    * Requisiti funzionali:
      * Utente:
@@ -65,7 +65,7 @@ Requisiti dell'applicazione:
      * L'applicazione deve gestire la presenza di utenti provenienti da diverse parti del mondo, considerando le differenze linguistiche.
      * L'applicazione dovrebbe consentire agli utenti di condividere i propri risultati sportivi su piattaforme di social media 
 
-
+***
 4. Modalità duella:
    * Requisiti funzionali:
      * Utente:
@@ -89,7 +89,7 @@ Requisiti dell'applicazione:
      * L'applicazione deve rispettare le leggi e i regolamenti sulla privacy dei dati degli utenti, in particolare quando si tratta di condivisione di dati tra dispositivi tramite connession o bluetooth.
      * La comunicazione tra dispositivi in modalità duella deve essere protetta da minacce alla sicurezza
      
-
+***
 5. Registrazione e autenticazione:
    * Requisiti funzionali:
      * Utente:
@@ -115,7 +115,7 @@ Requisiti dell'applicazione:
      * L'applicazione deve essere in grado di garantire sicurezza dei dati d'accesso e in caso di accesso indesiderato avvertire l'utente tramite email.
      * L'applicazione deve rispettare le norme dell'autenticazione a 2FA.
      
-
+***
 6. Profilo:
    * Requisiti funzionali:
      * Utente:
@@ -135,7 +135,7 @@ Requisiti dell'applicazione:
      * L'applicazione deve adottare misure di sicurezza per proteggere i dati contenuti nel profilo dell'utente.
      * L'applicazione deve rispettare le normative della privacy per il trattanto dei dati presenti nel profilo utente.
  
-
+***
 7. Gps e tracciamento:
    * Requisiti funzionali:
      * Utente:
@@ -152,7 +152,7 @@ Requisiti dell'applicazione:
    * Requisiti di dominio:
      * L'applicazione deve rispettare le leggi e i regolamenti sulla privacy dei dati degli utenti riguardo all'uso del GPS e del tracciamento della posizione.
 
-
+***
 8. Condivisione:
    * Requisiti funzionali:
      * Utente:
@@ -171,7 +171,7 @@ Requisiti dell'applicazione:
    * Requisiti di dominio:
      * L'applicazione deve rispettare la privacy dell'utente e richiedere l'autorizzazione dell'utente prima di condividere dati.
 
-
+***
 9. Modalità premium:
     * L'applicazione, tramite pagamento mensile, permetterà di avere accesso a maggiori funzionalità.
     9.1 Mappa discesa:
@@ -201,7 +201,7 @@ Requisiti dell'applicazione:
     * 9.6 Condivisione ampliata:
       * La modalità premium consente la condivisione di più risultati contemporanteamente.
      
-
+***
 10. Soddisfazione requisiti GDPR:
     * L'applicazione deve rispettare le norme europee, il regolamento generale sulla protezione dei dati (GDPR).
    
@@ -211,103 +211,103 @@ Requisiti dell'applicazione:
 1.1 L'utente, solo dopo aver effettuato l'accesso, avvia la registrazione discesa e al termine la interrompe.
 <img src="http://yuml.me/diagram/scruffy/usecase/(note: N. 1.1{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)<(Avviare registrazione discesa), (Avviare registrazione discesa)>(Termina registrazione discesa), [Sistema iSki]-(Calcolo registrazione discesa),(Registrazione velocità massima)^(Calcolo registrazione discesa), (Calcolo velocità media)^(Calcolo registrazione discesa), (Registrazione lunghezza percorso)^(Calcolo registrazione discesa), (Registrazione tempo impiegato)^(Calcolo registrazione discesa)" >
 
-
+***
 1.2 L'utente dopo aver effettuato l'accesso visualizza i dati delle discese precedenti.
 <img src="http://yuml.me/diagram/scruffy/usecase/(note: N. 1.2{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)<(Visualizza record discese)" >
 
-
+***
 2.1 L'utente deve poter diramare una segnalazione di soccorso con la sua esatta posizione ai contatti di emergenza più vicini, scelti dal sistema, in caso di valange anche senza aver efettuato l'accesso avendo però la posizione GPS attiva.
 <img src="http://yuml.me/diagram/scruffy/usecase/(note: N. 2.1{bg:beige}), [Utente non autenticato]-(Invio segnalazione di soccorso), [Utente non autenticato]-(Attivazione GPS), [Utente non autenticato]-(Accesso Utente),  (Invio segnalazione di soccorso)>(Invio posizione GPS), (Invio posizione GPS)>(Determinazione posizione GPS), (Invio segnalazione di soccorso)>(Notifica confermo invio)">
 
-
+***
 2.2 Il sistema rileva in automatico la valanga e invia una segnalazione di soccorso.
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 2.2{bg:beige}), [Sistema iSki] - (Monitora Sensori), (Monitora Sensori) < (Rileva Valanga), (Rileva Valanga) > (Attiva Geolocalizzatore GPS), (Rileva Valanga) > (Invia Segnalazione), (Invia Segnalazione)<(Fornisce Feedback)'>
 
-
-3.1 L'utente accede e aggiunge un amico. --------------------------------------------------------
+***
+3.1 L'utente accede e aggiunge un amico. 
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 3.1{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)<(Aggiungi Amico)'>
 
-
-3.2 L'utente visualizza la leaderboard globale anche senza aver effettuato l'accesso. -----------
+***
+3.2 L'utente visualizza la leaderboard globale anche senza aver effettuato l'accesso.
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 3.2{bg:beige}), [Utente]-(Accesso Utente),  [Utente]-(Visualizza Leaderboard Globale)'>
 
-
+***
 3.3 L'utente effettua l'accesso aggiunge un amico o confronta i risultati dei prori amici aggiungi in ordine di punteggio.
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 3.3{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)<(Aggiungi Amico), (Accesso Utente)<(Confronta Risultati con Amici), (Confronta Risultati con Amici) > (Mostra Risultati Migliori)'>
 
-
+***
 4.1 L'utente dopo aver effettuato l'accesso avvia la modalità duella, il sitema deve verificare la vicinanza tra i due dispositivi. L'utente invita un proprio amico o uno sconosciuto alla sfida alla sfida. Al termine della discesa il sistema confronta in automatico i risultati e decreta un vincitore
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 4.1{bg:beige}), [Utente]- (Accesso Utente), (Accesso Utente) < (Attiva Modalità Duella), (Attiva Modalità Duella) > (Invita Amico a Duella), (Attiva Modalità Duella) > (Invita utente sconosciuto a Duella), [Sistema]-(Confronta Risultati Duella), (Attiva Modalità Duella)>(Ferma Registrazione Discesa Duella), [Sistema]-(Verifica Vicinanza), (Confronta Risultati Duella) > (Determina Vincitore Duella)'>
 
-
+***
 5.1 Gli utenti possono registrarsi creando un account personale, il sistema salva le informazioni e invia conferma email.
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 5.1{bg:beige}), [Utente]-(Registrazione), [Sistema]-(Salva dati registrazione), [Sistema]-(Invio email conferma registrazione)'>
 
-
+***
 5.2 L'utente tenta di accedere all'applicazione inserendo le credenziali.
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 5.2{bg:beige}), [Utente]-(Accesso account), [Sistema]-(Verifica credenziali), (Verifica credenziali)<(Credenziali errate), (Verifica credenziali)<(Accesso consentito)'>
 
-
-5.3 L'utente chiede un ripristino della password. -----------------------------------------------
+***
+5.3 L'utente chiede un ripristino della password. 
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 5.3{bg:beige}), [Utente]-(Reset Password), (Reset Password) > (Specifica email di riferimento), [Sistema iSki]-(Invio istruzioni per reimpostare password)'>
 
-
+***
 5.4 L'utente tenta l'accesso all'account e in caso di credenziali errate può richiedere di reimpostare la password.
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 5.4{bg:beige}), [Utente]-(Accesso account), [Utente] - (Reset Password), (Reset Password) > (Specifica Email di riferimento), [Sistema]-(Verifica credenziali), (Verifica credenziali)<(Credenziali errate), (Verifica credenziali)<(Accesso consentito), [Sistema]-(Invio istruzioni per reimpostare password)'>
 
-
-5.5 L'utente attiva l'autenticazione a 2FA per avere maggiore sicurezza. ------------------------
+***
+5.5 L'utente attiva l'autenticazione a 2FA per avere maggiore sicurezza. 
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 5.5{bg:beige}), [Utente]-(Attivazione 2FA), [Sistema] - (Invio conferma tramite email specificata)'>
 
-
+***
 5.6 L'utente tenta l'accesso ad un account e in caso di accesso consentito autenticazione a 2FA verifica accesso tramite email.
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 5.6{bg:beige}), [Utente]-(Accesso account), [Utente] - (Reset Password), (Reset Password) > (Specifica Email di riferimento), [Sistema]-(Verifica credenziali), (Verifica credenziali)<(Credenziali errate), (Verifica credenziali)<(Accesso consentito), (Accesso consentito) > (Verifica 2FA tramite email), [Sistema]-(Invio istruzioni per reimpostare password)'>
 
-
+***
 6.1 L'utente dopo aver effettuato l'accesso visualizza il suo profilo utente
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 6.1{bg:beige}), [Utente] - (Accesso utente), (Accesso utente) < (Visualizzazione profilo)'>
 
-
+***
 6.2 L'utente dopo l'accesso ha la possibilità di modificare le proprie informazioni relative all'account (nome,cognome,data di nascita,email,nome utente,password,immagine profilo).
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 6.2{bg:beige}), [Utente] - (Accesso utente), (Accesso utente) < (Modifica profilo), (Modifica nome)^(Modifica profilo), (Modifica cognome)^(Modifica profilo), (Modifica data di nascita)^(Modifica profilo), (Modifica email)^(Modifica profilo), (Modifica nome utente)^(Modifica profilo) , (Modifica password)^(Modifica profilo), (Modifica immagine profilo)^(Modifica profilo)'>
 
-
+***
 6.3 L'utente dopo aver effettuato l'accesso visualizza le statistiche delle proprie discese.
 <img src="http://yuml.me/diagram/scruffy/usecase/(note: N. 6.3{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)<(Visualizza statistiche)" >
 
-
+***
 7.1 L'utente per poter utilizzare l'applicazione deve accettare il tracciamento GPS.
 <img src="http://yuml.me/diagram/scruffy/usecase/(note: N. 7.1{bg:beige}), [Utente]-(Autorizzazione GPS), (Autorizzazione GPS) < (Accetta condizione), (Autorizzazione GPS) < (Rifiuta condizione), [Sistema]-(Invio notifica autorizzazione)" >
 
-
+***
 8.1 L'utente loggato condivide i propri risultati di una sola discesa selezionata.
 <img src="http://yuml.me/diagram/scruffy/usecase/(note: N. 8.1{bg:beige}), [Utente]-(Accesso utente), (Accesso utente) < (Selezione dati da condividere), (Selezione dati da condividere)>(Selezione piattaforma di condivisione),(Selezione dati da condividere)>(Selezione destinatario), [Sistema]-(Invio notifica condivisione effettuata)" >
 
-
+***
 9.1 L'utente loggato attiva la modalità premium e paga il compenso mensile di attivazione, pagamento confermato.
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N.2{bg:beige}), [Utente] - (Accesso Utente), (Accesso Utente) < (Attiva Modalità Premium), (Attiva Modalità Premium) > (Effettua Pagamento), (Attiva Modalità Premium) > (Aggiungi carta), [Banca] - (Elabora Pagamento), (Elabora Pagamento) > (Invio risultato conferma), [Sistema] - (Attivazione modalità premium)'>
 
-
+***
 9.2 L'utente loggato prova ad attivare la modalità premium ma il pagamento non va a buon fine.
  <img src='http://yuml.me/diagram/scruffy/usecase/(note: N.2{bg:beige}), [Utente] - (Accesso Utente), (Accesso Utente) < (Attiva Modalità Premium), (Attiva Modalità Premium) > (Effettua Pagamento), (Attiva Modalità Premium) > (Aggiungi carta), [Banca] - (Elabora Pagamento), (Elabora Pagamento) > (Errore nel pagamento), [Sistema] - (Invio notifica pagamento non effettuato)'> 
 
-
+***
 9.3 L'utente premium accede alla mappa e visualizza gli impianti e le discese disponibili tramite la mappa.
  <img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 9.3{bg:beige}), [Utente Premium]-(Visualizza Mappa in Modalità Satellite), (Visualizza Mappa) < (Visualizza Piste Sciistiche aperte), (Visualizza Mappa in Modalità Satellite) < (Visualizza Impianti sciistici attivi), [Centralina impianto] - (Invio informazioni impianti e discese aperte e attive)'>
 
- 
+ ***
  9.4 L'utente premium visualizza i record delle sue discese e visualizza il tracciato fatto tramite mappa.
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 9.4{bg:beige}), [Utente Premium]-(Visualizza record discese), (Visualizza record discese)>(Tracciato mappa della discesa), [Sistema iSki]-(Realizza tracciato discesa)'>
 
-
+***
 9.5 L'utente premium seleziona due o più discese effettuate e il sitema restituisce statistiche a confronto e risultato migliore assegnando un punteggio ad ogni discesa.
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 9.5{bg:beige}), [Utente Premium]-(Visualizza record discese), (Visualizza record discese)>(Selezione 2+ record), [Sistema iSki]-(Confronto record selezionati), [Sistema iSki]-(Restituzione discesa migliore), [Sistema iSki]-(Calcolo statistiche discese)'>
 
-
+***
 9.6 L'utente premium accede e attiva la modalità fuori pista, il sistema invia notifica relativa alla stabilità della neve.
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 9.6{bg:beige}), [Utente Premium]-(Attiva modalità fuori pista), (Attiva modalità fuori pista) < (Disattiva modalità fuori pista), [Sistema iSki]-(Invio notifica qualità neve), (Invio notifica qualità neve) < (Notifica di pericolo per neve instabile), [Centralina impianto sciistico]-(Studio del manto nevoso), (Studio del manto nevoso) > (Invio dati al sistema)'>
 
-
+***
 9.7 L'utente premium seleziona un record dall'archivio dati e il sistema crea e salva nel dispositvo il file PDF.
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N.2{bg:beige}), [Utente Premium]-(Visualizza record discese), (Visualizza record discese) > (Selezione record), [Sistema iSki]-(Creazione report), [Sistema iSki]-(Salvataggio report), (Salvataggio report) > (Autorizzazione utente), '>
 
