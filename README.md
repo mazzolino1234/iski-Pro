@@ -239,7 +239,8 @@ Requisiti dell'applicazione:
     * 9.6 Condivisione ampliata:
       * La modalità premium consente la condivisione di più risultati contemporanteamente.
 </p>
-</details>     
+</details> 
+
 ***
 <details>
 <summary>10. Soddisfazione requisiti GDPR</summary>
@@ -247,6 +248,7 @@ Requisiti dell'applicazione:
     * L'applicazione deve rispettare le norme europee, il regolamento generale sulla protezione dei dati (GDPR).
   </p>
 </details>
+
   ***
 
 **CASI D'USO:**
