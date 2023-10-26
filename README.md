@@ -7,7 +7,7 @@ Il problema che mi sono posto nel pensare di realizzare questo programma è stat
 ## **Requisiti dell'applicazione:**
 
 <details>
-<summary> 1. Registrazione delle discese </summary>
+<summary>  1. Registrazione delle discese </summary>
 <p>
   
    * Requisiti funzionali:
