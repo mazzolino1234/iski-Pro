@@ -6,8 +6,9 @@ Il problema che mi sono posto nel pensare di realizzare questo programma è stat
 
 Requisiti dell'applicazione:
 <details>
-  <summary>
-1. Registrazione delle discese </summary>
+  
+<summary> 1. Registrazione delle discese </summary>
+
    * Requisiti funzionali:
      * Utente:
        * L'applicazione deve fornire un'interfaccia utente chiara e intuitiva che consenta agli utenti di avviare e interrompere la registrazione delle discese senza complicazioni.
