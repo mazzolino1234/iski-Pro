@@ -110,7 +110,9 @@ Requisiti dell'applicazione:
 </details>    
 
 ***
-5. Registrazione e autenticazione:
+<details>
+<summary>5. Registrazione e autenticazione:</summary>
+  <p>
    * Requisiti funzionali:
      * Utente:
        * Gli utenti devono avere la possibilità di registrarsi e create un account personale.
@@ -134,9 +136,13 @@ Requisiti dell'applicazione:
      * L'applicazione deve rispettare le norme della privacy riguardo l'accesso e la registrazione degli utenti.
      * L'applicazione deve essere in grado di garantire sicurezza dei dati d'accesso e in caso di accesso indesiderato avvertire l'utente tramite email.
      * L'applicazione deve rispettare le norme dell'autenticazione a 2FA.
-     
+</p>
+</details>    
+
 ***
-6. Profilo:
+<details>
+<summary>6. Profilo</summary>
+  <p>
    * Requisiti funzionali:
      * Utente:
        * L'utente deve poter visualizzare il proprio profilo e poter modificare i propri dati in base alle proprie esigenze.
@@ -154,6 +160,8 @@ Requisiti dell'applicazione:
    * Requisiti di dominio:
      * L'applicazione deve adottare misure di sicurezza per proteggere i dati contenuti nel profilo dell'utente.
      * L'applicazione deve rispettare le normative della privacy per il trattanto dei dati presenti nel profilo utente.
+</p>
+ </details>
  
 ***
 7. Gps e tracciamento:
