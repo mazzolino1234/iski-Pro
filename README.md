@@ -293,7 +293,7 @@ Requisiti dell'applicazione:
 
 ***
 9.3 L'utente premium accede alla mappa e visualizza gli impianti e le discese disponibili tramite la mappa.
- <img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 9.3{bg:beige}), [Utente Premium]-(Visualizza Mappa in Modalità Satellite), (Visualizza Mappa) < (Visualizza Piste Sciistiche aperte), (Visualizza Mappa in Modalità Satellite) < (Visualizza Impianti sciistici attivi), [Centralina impianto] - (Invio informazioni impianti e discese aperte e attive)'>
+ <img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 9.3{bg:beige}), [Utente Premium]^[Utente],[Utente Premium]-(Visualizza Mappa in Modalità Satellite), (Visualizza Mappa) < (Visualizza Piste Sciistiche aperte), (Visualizza Mappa in Modalità Satellite) < (Visualizza Impianti sciistici attivi), [Centralina impianto] - (Invio informazioni impianti e discese aperte e attive)'>
 
  ***
  9.4 L'utente premium visualizza i record delle sue discese e visualizza il tracciato fatto tramite mappa.
