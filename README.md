@@ -312,6 +312,6 @@ Requisiti dell'applicazione:
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 9.7{bg:beige}), [Utente Premium]-(Visualizza record discese), (Visualizza record discese) > (Selezione record), [Sistema iSki]-(Creazione report), [Sistema iSki]-(Salvataggio report), (Salvataggio report) > (Autorizzazione utente), '>
 
 9.8 L'utente premium avvia la modalità duella e ha la possibilità di invitare fino a 4 persone tra amici e sconosciuti.
-<img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 4.1{bg:beige}), [Utente]- (Accesso Utente), (Accesso Utente) < (Attiva Modalità Duella), (Attiva Modalità Duella) > (Invita Amici a Duella), (Attiva Modalità Duella) > (Invita utenti sconosciuti a Duella), [Sistema]-(Confronta Risultati Duella), (Attiva Modalità Duella)>(Ferma Registrazione Discesa Duella), [Sistema]-(Verifica Vicinanza), (Confronta Risultati Duella) > (Determina Vincitore Duella)'>
+<img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 9.8{bg:beige}), [Utente Premium]- (Accesso Utente), (Accesso Utente) < (Attiva Modalità Duella), (Attiva Modalità Duella) > (Invita Amici a Duella), (Attiva Modalità Duella) > (Invita utenti sconosciuti a Duella), [Sistema]-(Confronta Risultati Duella), (Attiva Modalità Duella)>(Ferma Registrazione Discesa Duella), [Sistema]-(Verifica Vicinanza), (Confronta Risultati Duella) > (Determina Vincitore Duella)'>
 
 
