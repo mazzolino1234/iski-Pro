@@ -311,5 +311,7 @@ Requisiti dell'applicazione:
 9.7 L'utente premium seleziona un record dall'archivio dati e il sistema crea e salva nel dispositvo il file PDF.
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 9.7{bg:beige}), [Utente Premium]-(Visualizza record discese), (Visualizza record discese) > (Selezione record), [Sistema iSki]-(Creazione report), [Sistema iSki]-(Salvataggio report), (Salvataggio report) > (Autorizzazione utente), '>
 
+9.8 L'utente premium avvia la modalità duella e ha la possibilità di invitare fino a 4 persone tra amici e sconosciuti.
+<img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 4.1{bg:beige}), [Utente]- (Accesso Utente), (Accesso Utente) < (Attiva Modalità Duella), (Attiva Modalità Duella) > (Invita Amici a Duella), (Attiva Modalità Duella) > (Invita utenti sconosciuti a Duella), [Sistema]-(Confronta Risultati Duella), (Attiva Modalità Duella)>(Ferma Registrazione Discesa Duella), [Sistema]-(Verifica Vicinanza), (Confronta Risultati Duella) > (Determina Vincitore Duella)'>
 
 
