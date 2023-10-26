@@ -209,7 +209,7 @@ Requisiti dell'applicazione:
 **CASI D'USO:**
 
 1.1 L'utente, solo dopo aver effettuato l'accesso, avvia la registrazione discesa e al termine la interrompe.
-<img src="http://yuml.me/diagram/scruffy/usecase/(note: N. 1.1{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)<(Avviare registrazione discesa), (Avviare registrazione discesa)>(Termina registrazione discesa), [Sistema iSki]-(Calcolo dati discesa)" >
+<img src="http://yuml.me/diagram/scruffy/usecase/(note: N. 1.1{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)<(Avviare registrazione discesa), (Avviare registrazione discesa)>(Termina registrazione discesa), [Sistema iSki]-(Calcolo dati discesa),[Sistema iSki]-(Salvataggio record)" >
 
 ***
 1.2 L'utente dopo aver effettuato l'accesso visualizza i dati delle discese precedenti.
@@ -268,7 +268,7 @@ Requisiti dell'applicazione:
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 6.1{bg:beige}), [Utente] - (Accesso utente), (Accesso utente) < (Visualizzazione profilo)'>
 
 ***
-6.2 L'utente dopo l'accesso ha la possibilità di modificare le proprie informazioni relative all'account (nome,cognome,data di nascita,email,nome utente,password,immagine profilo).
+6.2 L'utente dopo l'accesso ha la possibilità di modificare le proprie informazioni relative all'account.
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 6.2{bg:beige}), [Utente] - (Accesso utente), (Accesso utente) < (Modifica profilo)'>
 
 ***
