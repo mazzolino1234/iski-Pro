@@ -302,7 +302,7 @@ Il problema che mi sono posto nel pensare di realizzare questo programma è stat
 
 ***
 5.5 L'utente attiva l'autenticazione a 2FA per avere maggiore sicurezza. 
-<img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 5.5{bg:beige}), [Utente]-(Attivazione 2FA), [Sistema] - (Invio conferma tramite email specificata)'>
+<img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 5.5{bg:beige}), [Utente]-(Accesso Utente),(Accesso Utente)<(Attivazione 2FA), [Sistema] - (Invio conferma tramite email specificata)'>
 
 ***
 5.6 L'utente tenta l'accesso ad un account e in caso di accesso consentito autenticazione a 2FA verifica accesso tramite email.
