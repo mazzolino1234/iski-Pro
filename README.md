@@ -9,6 +9,7 @@ Requisiti dell'applicazione:
   
 <summary> 1. Registrazione delle discese </summary>
 <p>
+  
    * Requisiti funzionali:
      * Utente:
        * L'applicazione deve fornire un'interfaccia utente chiara e intuitiva che consenta agli utenti di avviare e interrompere la registrazione delle discese senza complicazioni.
