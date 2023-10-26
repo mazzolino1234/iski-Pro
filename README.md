@@ -31,7 +31,10 @@ Requisiti dell'applicazione:
 </details>
 
 ***
-2. Geolocalizzatore GPS per Valanghe:
+<details>
+<summary>2. Geolocalizzatore GPS per Valanghe:</summary>
+  <p>
+    
    * Requisiti funzionali:
      * Utente:
        * Deve permettere agli utenti di poter diramare una segnalazione di soccorso con la loro posizione esatta ai contatti di emergenza più vicini.
@@ -49,6 +52,8 @@ Requisiti dell'applicazione:
      * L'applicazione deve saper utilizzazre mezzi specifici al fine di comprendere cambiamenti molto rapidi di velocità per verificare la presenza di una valanga.
      * La privacy dell'utente deve essere protetta e crittografata.
      * Si devono impedire accessi indesiderati da parte di utenti esterni.
+</p>
+</details>
 
 ***
 3. Confronto con Amici e Utenti Globali:
