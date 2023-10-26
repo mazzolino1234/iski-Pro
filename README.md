@@ -4,10 +4,10 @@
 
 Il problema che mi sono posto nel pensare di realizzare questo programma è stato la necessità di voler registrare i vari dati caratterizzanti ogni discesa sciistica in modo tale da poter confrontare tali dati nel tempo e visualizzare l'andamento nel corso degli anni. Inoltre un altro problema, risolvibile con la stessa applicazione, è stato il caso valanghe: negli ultimi anni sempre più sciatori vengono travolti e spesso non vengono trovati in tempo. Analizzando il problema è dunque nata l'idea di questa applicazione che non solo permette la registrazione discese ma anche un servizio di geolocalizzazione GPS.
 
-Requisiti dell'applicazione:
+## **Requisiti dell'applicazione:**
+
 <details>
-  
- <summary> 1. Registrazione delle discese </summary>
+<summary> 1. Registrazione delle discese </summary>
 <p>
   
    * Requisiti funzionali:
@@ -251,7 +251,7 @@ Requisiti dell'applicazione:
 
   ***
 
-**CASI D'USO:**
+## **CASI D'USO:**
 
 1.1 L'utente, solo dopo aver effettuato l'accesso, avvia la registrazione discesa e al termine la interrompe.
 <img src="http://yuml.me/diagram/scruffy/usecase/(note: N. 1.1{bg:beige}), [Utente]-(Accesso Utente), (Accesso Utente)<(Avviare registrazione discesa), (Avviare registrazione discesa)>(Termina registrazione discesa), [Sistema iSki]-(Calcolo dati discesa),[Sistema iSki]-(Salvataggio record)" >
