@@ -5,8 +5,9 @@
 Il problema che mi sono posto nel pensare di realizzare questo programma è stato la necessità di voler registrare i vari dati caratterizzanti ogni discesa sciistica in modo tale da poter confrontare tali dati nel tempo e visualizzare l'andamento nel corso degli anni. Inoltre un altro problema, risolvibile con la stessa applicazione, è stato il caso valanghe: negli ultimi anni sempre più sciatori vengono travolti e spesso non vengono trovati in tempo. Analizzando il problema è dunque nata l'idea di questa applicazione che non solo permette la registrazione discese ma anche un servizio di geolocalizzazione GPS.
 
 Requisiti dell'applicazione:
-
-1. Registrazione delle discese:
+<details>
+  <summary>
+1. Registrazione delle discese </summary>
    * Requisiti funzionali:
      * Utente:
        * L'applicazione deve fornire un'interfaccia utente chiara e intuitiva che consenta agli utenti di avviare e interrompere la registrazione delle discese senza complicazioni.
@@ -24,7 +25,7 @@ Requisiti dell'applicazione:
    * Requisiti di dominio:
      * L'applicazione deve rispettare le leggi e i regolamenti relativi alla raccolta e alla conservazione dei dati personali.
      *  L'applicazione deve essere compatibile con i dispositivi GPS per la registrazione dei dati delle discese.
-     
+</details>     
 ***
 2. Geolocalizzatore GPS per Valanghe:
    * Requisiti funzionali:
