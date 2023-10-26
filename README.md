@@ -305,7 +305,7 @@ Requisiti dell'applicazione:
 
 ***
 9.6 L'utente premium accede e attiva la modalità fuori pista, il sistema invia notifica relativa alla stabilità della neve.
-<img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 9.6{bg:beige}), [Utente Premium]-(Attiva modalità fuori pista), (Attiva modalità fuori pista) < (Disattiva modalità fuori pista), [Sistema iSki]-(Invio notifica qualità neve), (Invio notifica qualità neve) < (Notifica di pericolo per neve instabile), [Centralina impianto sciistico]-(Studio del manto nevoso), (Studio del manto nevoso) > (Invio dati al sistema)'>
+<img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 9.6{bg:beige}), [Utente Premium]-(Attiva modalità fuori pista), (Attiva modalità fuori pista) > (Disattiva modalità fuori pista), [Sistema iSki]-(Invio notifica qualità neve), (Invio notifica qualità neve) < (Notifica di pericolo per neve instabile), [Centralina impianto sciistico]-(Studio del manto nevoso), (Studio del manto nevoso) > (Invio dati al sistema)'>
 
 ***
 9.7 L'utente premium seleziona un record dall'archivio dati e il sistema crea e salva nel dispositvo il file PDF.
