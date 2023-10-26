@@ -56,7 +56,10 @@ Requisiti dell'applicazione:
 </details>
 
 ***
-3. Confronto con Amici e Utenti Globali:
+<details>
+<summary>3. Confronto con Amici e Utenti Globali:</summary>
+  <p>
+    
    * Requisiti funzionali:
      * Utente:
        * Gli utenti devono poter facilmente aggiungere amici attraverso la ricerca di altri utenti tramite il nome utente in app.
@@ -74,9 +77,14 @@ Requisiti dell'applicazione:
      * L'app deve rispettare le normative relative la privacy per quanto riguarda la condivisione dei risultati e l'accesso a dati con altri utenti.
      * L'applicazione deve gestire la presenza di utenti provenienti da diverse parti del mondo, considerando le differenze linguistiche.
      * L'applicazione dovrebbe consentire agli utenti di condividere i propri risultati sportivi su piattaforme di social media 
+</p>
+</details>
 
 ***
-4. Modalità duella:
+<details>
+<summary>4. Modalità duella:</summary>
+  <p>
+    
    * Requisiti funzionali:
      * Utente:
        * Gli utenti devono poter attivare la modalità duella quando sono nelle vicinanze di altri utenti che desiderano partecipare a una sfida.
@@ -98,7 +106,9 @@ Requisiti dell'applicazione:
    * Requisiti di dominio:
      * L'applicazione deve rispettare le leggi e i regolamenti sulla privacy dei dati degli utenti, in particolare quando si tratta di condivisione di dati tra dispositivi tramite connession o bluetooth.
      * La comunicazione tra dispositivi in modalità duella deve essere protetta da minacce alla sicurezza
-     
+</p>
+</details>    
+
 ***
 5. Registrazione e autenticazione:
    * Requisiti funzionali:
