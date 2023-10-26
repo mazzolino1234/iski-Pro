@@ -301,7 +301,7 @@ Requisiti dell'applicazione:
 
 ***
 9.5 L'utente premium seleziona due o più discese effettuate e il sitema restituisce statistiche a confronto e risultato migliore assegnando un punteggio ad ogni discesa.
-<img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 9.5{bg:beige}), [Utente Premium]-(Visualizza record discese), (Visualizza record discese)>(Selezione 2+ record), [Sistema iSki]-(Confronto record selezionati), [Sistema iSki]-(Restituzione discesa migliore), [Sistema iSki]-(Calcolo statistiche discese)'>
+<img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 9.5{bg:beige}), [Utente Premium]-(Visualizza record discese), (Visualizza record discese)>(Selezione 2+ record), [Sistema iSki]-(Confronto record selezionati), (Confronto record selezionati)>(Restituzione discesa migliore), (Confronto record selezionati)>(Calcolo statistiche discese)'>
 
 ***
 9.6 L'utente premium accede e attiva la modalità fuori pista, il sistema invia notifica relativa alla stabilità della neve.
