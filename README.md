@@ -164,7 +164,9 @@ Requisiti dell'applicazione:
  </details>
  
 ***
-7. Gps e tracciamento:
+<details>
+<summary>7. Gps e tracciamento</summary>
+  <p>
    * Requisiti funzionali:
      * Utente:
        * Gli utenti devono essere in grado di concedere o revocare l'autorizzazione all'applicazione per accedere al sistema GPS del loro dispositivo.
@@ -179,9 +181,13 @@ Requisiti dell'applicazione:
 
    * Requisiti di dominio:
      * L'applicazione deve rispettare le leggi e i regolamenti sulla privacy dei dati degli utenti riguardo all'uso del GPS e del tracciamento della posizione.
+</p>
+</details>
 
 ***
-8. Condivisione:
+<details>
+<summary>8. Condivisione</summary>
+  <p>
    * Requisiti funzionali:
      * Utente:
        * Gli utenti devono poter selezionare specifici dati o risultati della discesa da condividere.
@@ -198,9 +204,13 @@ Requisiti dell'applicazione:
 
    * Requisiti di dominio:
      * L'applicazione deve rispettare la privacy dell'utente e richiedere l'autorizzazione dell'utente prima di condividere dati.
+</p>
+</details>
 
 ***
-9. Modalità premium:
+<details>
+<summary>9. Modalità premium</summary>
+  <p>
     * L'applicazione, tramite pagamento mensile, permetterà di avere accesso a maggiori funzionalità.
     9.1 Mappa discesa:
        * Requisiti funzionali:
@@ -228,11 +238,16 @@ Requisiti dell'applicazione:
        * Tramite la versione premium dell'applicazione il numero di contendenti nella modalità duella (PUNTO 4) sarà ampliato da 2 a 4 persone massime.
     * 9.6 Condivisione ampliata:
       * La modalità premium consente la condivisione di più risultati contemporanteamente.
-     
+</p>
+</details>     
 ***
-10. Soddisfazione requisiti GDPR:
+<details>
+<summary>10. Soddisfazione requisiti GDPR</summary>
+  <p>
     * L'applicazione deve rispettare le norme europee, il regolamento generale sulla protezione dei dati (GDPR).
-***
+  </p>
+</details>
+  ***
 
 **CASI D'USO:**
 
