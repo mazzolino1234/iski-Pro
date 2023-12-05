@@ -113,6 +113,7 @@ Il problema che mi sono posto nel pensare di realizzare questo programma è stat
 <details>
 <summary>5. Registrazione e autenticazione:</summary>
   <p>
+    
    * Requisiti funzionali:
      * Utente:
        * Gli utenti devono avere la possibilità di registrarsi e create un account personale.
@@ -143,6 +144,7 @@ Il problema che mi sono posto nel pensare di realizzare questo programma è stat
 <details>
 <summary>6. Profilo</summary>
   <p>
+    
    * Requisiti funzionali:
      * Utente:
        * L'utente deve poter visualizzare il proprio profilo e poter modificare i propri dati in base alle proprie esigenze.
@@ -167,6 +169,7 @@ Il problema che mi sono posto nel pensare di realizzare questo programma è stat
 <details>
 <summary>7. Gps e tracciamento</summary>
   <p>
+    
    * Requisiti funzionali:
      * Utente:
        * Gli utenti devono essere in grado di concedere o revocare l'autorizzazione all'applicazione per accedere al sistema GPS del loro dispositivo.
@@ -188,6 +191,7 @@ Il problema che mi sono posto nel pensare di realizzare questo programma è stat
 <details>
 <summary>8. Condivisione</summary>
   <p>
+    
    * Requisiti funzionali:
      * Utente:
        * Gli utenti devono poter selezionare specifici dati o risultati della discesa da condividere.
@@ -211,7 +215,7 @@ Il problema che mi sono posto nel pensare di realizzare questo programma è stat
 <details>
 <summary>9. Modalità premium</summary>
   <p>
-    * L'applicazione, tramite pagamento mensile, permetterà di avere accesso a maggiori funzionalità.
+    
     9.1 Mappa discesa:
        * Requisiti funzionali:
           * Utente:
@@ -245,6 +249,7 @@ Il problema che mi sono posto nel pensare di realizzare questo programma è stat
 <details>
 <summary>10. Soddisfazione requisiti GDPR</summary>
   <p>
+    
     * L'applicazione deve rispettare le norme europee, il regolamento generale sulla protezione dei dati (GDPR).
   </p>
 </details>
