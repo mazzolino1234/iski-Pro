@@ -364,4 +364,35 @@ Il problema che mi sono posto nel pensare di realizzare questo programma è stat
 9.8 L'utente premium avvia la modalità duella e ha la possibilità di invitare fino a 4 persone tra amici e sconosciuti.
 <img src='http://yuml.me/diagram/scruffy/usecase/(note: N. 9.8{bg:beige}), [Utente Premium]- (Accesso Utente), [Utente Premium]^[Utente], (Accesso Utente) < (Attiva Modalità Duella), (Attiva Modalità Duella) > (Invita Amici a Duella), (Attiva Modalità Duella) > (Invita utenti sconosciuti a Duella), [Sistema]-(Confronta Risultati Duella), (Attiva Modalità Duella)>(Ferma Registrazione Discesa Duella), [Sistema]-(Verifica Vicinanza), (Confronta Risultati Duella) > (Determina Vincitore Duella)'>
 
+***
+
+## **USER STORY:**
+
+<details>
+<summary>USER STORY 1:</summary>
+  <p>
+    
+   * Requisiti funzionali:
+     * Utente:
+       * Gli utenti devono poter attivare la modalità duella quando sono nelle vicinanze di altri utenti che desiderano partecipare a una sfida.
+       * L'utente deve aver la possibilità di invitare uno dei propri amici a partecipare ad una sfida.
+       * Alla fine della corsa gli utenti devono poter fermare la registrazione della discesa.
+     * Sistema:
+       * L'app deve permettere agli utenti di avviare la modalità duella solo dopo aver verificato la vicinanza tra i dispositivi.
+       * Durante la modalità duella, l'applicazione deve registrare i dati delle discese dei partecipanti, inclusi tempi, velocità e altri dati pertinenti.
+       * L'applicazione deve essere in grado di confrontare i risultati delle discese dei partecipanti e determinare un vincitore in base a criteri specifici.
+
+   * Requisiti non funzionali:
+     * Sistema:
+       * La registrazione delle discese e il confronto dei risultati devono essere altamente precisi per determinare un vincitore in modo corretto ed eguale.
+       * La verifica della vicinanza tra i dispositivi deve essere sicura e priva di attacchi esterni.
+       * Il confronto dei risultati e la determinazione del vincitore devono avvenire in modo rapido ed efficiente per fornire una risposta quasi istantanea agli utenti alla fine della sfida.
+     * Utente:
+       * Gli utenti devono ricevere notifiche immediate o avvisi quando un altro utente nelle vicinanze avvia una sfida duella.
+
+   * Requisiti di dominio:
+     * L'applicazione deve rispettare le leggi e i regolamenti sulla privacy dei dati degli utenti, in particolare quando si tratta di condivisione di dati tra dispositivi tramite connession o bluetooth.
+     * La comunicazione tra dispositivi in modalità duella deve essere protetta da minacce alla sicurezza
+</p>
+</details>
 
