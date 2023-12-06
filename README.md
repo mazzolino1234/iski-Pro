@@ -777,7 +777,7 @@ Il problema che mi sono posto nel pensare di realizzare questo programma è stat
     <details>
     <summary>Task 5:</summary>
       <p>
-        Testing della mappa discesa e navigazione sugli impianti sciistici (21 ore)    
+        Testing della mappa discesa e navigazione sugli impianti sciistici.   
     </p>
     </details>
   </p>
