@@ -371,23 +371,23 @@ Il problema che mi sono posto nel pensare di realizzare questo programma è stat
 <details>
 <summary>USER STORY 1:</summary>
   <p>
-    Come utente, voglio avviare e interrompere la registrazione delle discese in modo semplice e intuitivo.
+    Come utente, voglio avviare e interrompere la registrazione delle discese in modo semplice e intuitivo al fine di registrare i dati e visualizzarli (SLOT: 13 ORE).
       <details>
-    <summary>Task1:</summary>
+    <summary>Task 1:</summary>
       <p>
-        Implementazione interfaccia di registrazione (8 ore)    
+        Implementazione interfaccia di registrazione.    
     </p>
     </details>
     <details>
-    <summary>Task2:</summary>
+    <summary>Task 2:</summary>
       <p>
-        Gestione avvio e interruzione registrazione (13 ore)    
+        Gestione avvio e interruzione registrazione.   
     </p>
     </details>
     <details>
-    <summary>Task3:</summary>
+    <summary>Task 3:</summary>
       <p>
-        Testing interfaccia utente e funzionalità registrazione (5 ore)    
+        Testing interfaccia utente e funzionalità registrazione.     
     </p>
     </details>
   </p>
@@ -397,23 +397,23 @@ Il problema che mi sono posto nel pensare di realizzare questo programma è stat
 <details>
 <summary>USER STORY 2:</summary>
   <p>
-    Come utente, voglio accedere facilmente alle mie registrazioni di discesa e visualizzare i dati associati.
+    Come utente, voglio accedere facilmente alle mie registrazioni di discesa e visualizzare i dati associati al fine di vedere i miei progressi (SLOT: 13 ORE).
       <details>
-    <summary>Task1:</summary>
+    <summary>Task 1:</summary>
       <p>
-        Creazione interfaccia accesso alle registrazioni (5 ore)    
+        Creazione interfaccia accesso alle registrazioni.     
     </p>
     </details>
     <details>
-    <summary>Task2:</summary>
+    <summary>Task 2:</summary>
       <p>
-        Implementazione visualizzazione dati associati a ciascuna discesa (8 ore)    
+        Implementazione visualizzazione dati associati a ciascuna discesa.    
     </p>
     </details>
     <details>
-    <summary>Task3:</summary>
+    <summary>Task 3:</summary>
       <p>
-        Testing accesso e visualizzazione dati (3 ore)    
+        Testing accesso e visualizzazione dati.    
     </p>
     </details>
   </p>
@@ -423,23 +423,23 @@ Il problema che mi sono posto nel pensare di realizzare questo programma è stat
 <details>
 <summary>USER STORY 3:</summary>
   <p>
-    Come sistema, devo registrare con precisione la velocità massima, la velocità media, il tempo e la lunghezza di ogni discesa.
+    Come sistema, devo registrare con precisione la velocità massima, la velocità media, il tempo e la lunghezza di ogni discesa (SLOT: 21 ORE).
       <details>
-    <summary>Task1:</summary>
+    <summary>Task 1:</summary>
       <p>
-        Implementazione raccolta dati durante la discesa (21 ore)    
+        Implementazione raccolta dati durante la discesa.     
     </p>
     </details>
     <details>
-    <summary>Task2:</summary>
+    <summary>Task 2:</summary>
       <p>
-        Calcolo velocità massima e media, tempo e lunghezza (13 ore)    
+        Calcolo velocità massima e media, tempo e lunghezza.    
     </p>
     </details>
     <details>
-    <summary>Task3:</summary>
+    <summary>Task 3:</summary>
       <p>
-        Verifica precisione registrazione (8 ore)    
+        Verifica precisione registrazione.     
     </p>
     </details>
   </p>
@@ -449,23 +449,23 @@ Il problema che mi sono posto nel pensare di realizzare questo programma è stat
 <details>
 <summary>USER STORY 4:</summary>
   <p>
-    Come sistema, devo conservare in modo sicuro i dati delle discese registrate e renderli accessibili agli utenti.
+    Come sistema, devo conservare in modo sicuro i dati delle discese registrate e renderli accessibili agli utenti al fine di visualizzazione (SLOT: 13 ORE).
       <details>
-    <summary>Task1:</summary>
+    <summary>Task 1:</summary>
       <p>
-        Sviluppo sistema di archiviazione sicura (21 ore)    
+        Sviluppo sistema di archiviazione sicura.    
     </p>
     </details>
     <details>
-    <summary>Task2:</summary>
+    <summary>Task 2:</summary>
       <p>
-        Implementazione accesso dati archiviati agli utenti (13 ore)    
+        Implementazione accesso dati archiviati agli utenti.   
     </p>
     </details>
     <details>
-    <summary>Task3:</summary>
+    <summary>Task 3:</summary>
       <p>
-        Testing sicurezza archiviazione e accesso dati (8 ore)    
+        Testing sicurezza archiviazione e accesso dati.  
     </p>
     </details>
   </p>
@@ -475,23 +475,17 @@ Il problema che mi sono posto nel pensare di realizzare questo programma è stat
 <details>
 <summary>USER STORY 5:</summary>
   <p>
-    Come utente, voglio poter segnalare una valanga e attivare il geolocalizzatore GPS con un'interfaccia semplice.
+    Come utente, voglio poter segnalare una valanga e attivare il geolocalizzatore GPS con un'interfaccia semplice al fine di soccorso (SLOT: 21 ORE).
       <details>
-    <summary>Task1:</summary>
+    <summary>Task 1:</summary>
       <p>
-        Creazione interfaccia segnalazione valanga e attivazione GPS (13 ore)    
+        Creazione interfaccia segnalazione valanga e attivazione GPS.  
     </p>
     </details>
     <details>
-    <summary>Task2:</summary>
+    <summary>Task 2:</summary>
       <p>
-        Implementazione funzionalità di attivazione GPS in risposta a una valanga (8 ore)    
-    </p>
-    </details>
-    <details>
-    <summary>Task3:</summary>
-      <p>
-        Testing interfaccia e attivazione GPS (5 ore)    
+        Implementazione funzionalità di attivazione GPS in risposta a una valanga.    
     </p>
     </details>
   </p>
@@ -501,23 +495,35 @@ Il problema che mi sono posto nel pensare di realizzare questo programma è stat
 <details>
 <summary>USER STORY 6:</summary>
   <p>
-    Come sistema, devo rilevare automaticamente un evento di valanga e attivare il geolocalizzatore GPS in risposta.
+    Come sistema, devo rilevare automaticamente un evento di valanga e attivare il geolocalizzatore GPS in risposta al fine di soccorso (SLOT: 34 ORE).
       <details>
-    <summary>Task1:</summary>
+    <summary>Task 1:</summary>
       <p>
-        Implementazione rilevamento automatico evento valanga (21 ore)    
+        Implementazione rilevamento automatico evento valanga.   
     </p>
     </details>
     <details>
-    <summary>Task2:</summary>
+    <summary>Task 2:</summary>
       <p>
-        Attivazione geolocalizzatore GPS in risposta (13 ore)    
+        Attivazione geolocalizzatore GPS in risposta.   
     </p>
     </details>
     <details>
-    <summary>Task3:</summary>
+    <summary>Task 3:</summary>
       <p>
-        Verifica tempestività attivazione dopo evento valanga (8 ore)    
+        Verifica tempestività attivazione dopo evento valanga.    
+    </p>
+    </details>
+    <details>
+    <summary>Task 4:</summary>
+      <p>
+        Implementazione invio automatico richiesta di soccorso ai servizi di soccorso alpino.    
+    </p>
+    </details>
+    <details>
+    <summary>Task 5:</summary>
+      <p>
+        Testing invio segnalazione automatica.   
     </p>
     </details>
   </p>
@@ -527,23 +533,17 @@ Il problema che mi sono posto nel pensare di realizzare questo programma è stat
 <details>
 <summary>USER STORY 7:</summary>
   <p>
-    Come sistema, la geolocalizzazione GPS deve essere accurata e rapida nella trasmissione delle informazioni ai servizi di soccorso.
+    Come sistema, la geolocalizzazione GPS deve essere accurata e rapida nella trasmissione delle informazioni ai servizi di soccorso al fine di soccorso (SLOT: 13 ORE).
       <details>
-    <summary>Task1:</summary>
+    <summary>Task 1:</summary>
       <p>
-        Implementazione precisione geolocalizzazione GPS (21 ore)    
+        Implementazione precisione geolocalizzazione GPS.    
     </p>
     </details>
     <details>
-    <summary>Task2:</summary>
+    <summary>Task 2:</summary>
       <p>
-        Ottimizzazione velocità di trasmissione delle informazioni ai servizi di soccorso (13 ore)    
-    </p>
-    </details>
-    <details>
-    <summary>Task3:</summary>
-      <p>
-        Testing precisione e tempestività nella trasmissione (8 ore)    
+        Ottimizzazione velocità di trasmissione delle informazioni ai servizi di soccorso.    
     </p>
     </details>
   </p>
@@ -553,23 +553,29 @@ Il problema che mi sono posto nel pensare di realizzare questo programma è stat
 <details>
 <summary>USER STORY 8:</summary>
   <p>
-    Come utente, voglio aggiungere facilmente amici e confrontare i nostri risultati sportivi.
+    Come utente, voglio aggiungere facilmente amici e confrontare i nostri risultati sportivi al fine di competizione o intrattenimento (SLOT: 13 ORE).
       <details>
-    <summary>Task1:</summary>
+    <summary>Task 1:</summary>
       <p>
-        Creazione interfaccia aggiunta amici (8 ore)    
+        Creazione interfaccia aggiunta amici.   
     </p>
     </details>
     <details>
-    <summary>Task2:</summary>
+    <summary>Task 2:</summary>
       <p>
-        Implementazione funzionalità confronto risultati sportivi (13 ore)    
+        Implementazione funzionalità confronto risultati sportivi.    
     </p>
     </details>
     <details>
-    <summary>Task3:</summary>
+    <summary>Task 3:</summary>
       <p>
-        Testing aggiunta amici e confronto risultati (5 ore)    
+        Testing aggiunta amici e confronto risultati.  
+    </p>
+    </details>
+    <details>
+    <summary>Task 4:</summary>
+      <p>
+        Creazione interfaccia di visualizzazzione amicizie attive nell'applicazione. 
     </p>
     </details>
   </p>
@@ -579,23 +585,17 @@ Il problema che mi sono posto nel pensare di realizzare questo programma è stat
 <details>
 <summary>USER STORY 9:</summary>
   <p>
-    Come sistema, devo gestire un numero crescente di utenti e dei loro risultati.
+    Come sistema, devo gestire un numero crescente di utenti e dei loro risultati al fine di evitare problematiche realitive all'accesso degli utenti (SLOT: 13 ORE).
       <details>
     <summary>Task1:</summary>
       <p>
-        Sviluppo sistema di gestione utenti e risultati (21 ore)    
+        Sviluppo sistema di gestione utenti e risultati.   
     </p>
     </details>
     <details>
     <summary>Task2:</summary>
       <p>
-        Ottimizzazione delle prestazioni per gestire un grande numero di utenti (13 ore)    
-    </p>
-    </details>
-    <details>
-    <summary>Task3:</summary>
-      <p>
-        Testing gestione utenti e risultati su larga scala (8 ore)    
+        Ottimizzazione delle prestazioni per gestire un grande numero di utenti.    
     </p>
     </details>
   </p>
@@ -605,23 +605,23 @@ Il problema che mi sono posto nel pensare di realizzare questo programma è stat
 <details>
 <summary>USER STORY 10:</summary>
   <p>
-    Come sistema, devo rispettare le normative sulla privacy per la condivisione dei risultati e l'accesso ai dati tra utenti.
+    Come utente, voglio attivare la modalità duella quando sono nelle vicinanze di altri utenti (SLOT: 13 ORE).
       <details>
     <summary>Task1:</summary>
       <p>
-        Implementazione politiche di privacy e condivisione dati (13 ore)    
+        Creazione interfaccia attivazione modalità duella.    
     </p>
     </details>
     <details>
     <summary>Task2:</summary>
       <p>
-        Verifica conformità alle normative sulla privacy (8 ore)    
+        Implementazione verifica vicinanza tra dispositivi.   
     </p>
     </details>
     <details>
     <summary>Task3:</summary>
       <p>
-        Aggiornamento documentazione sulle normative privacy (5 ore)    
+        Testing attivazione modalità duella e verifica vicinanza.   
     </p>
     </details>
   </p>
@@ -631,23 +631,29 @@ Il problema che mi sono posto nel pensare di realizzare questo programma è stat
 <details>
 <summary>USER STORY 11:</summary>
   <p>
-    Come utente, voglio attivare la modalità duella quando sono nelle vicinanze di altri utenti.
+    Come sistema, devo verificare la vicinanza tra i dispositivi prima di avviare la modalità duella (SLOT: 21 ORE).
       <details>
     <summary>Task1:</summary>
       <p>
-        Creazione interfaccia attivazione modalità duella (8 ore)    
+        Sviluppo sistema di rilevamento vicinanza tra dispositivi.   
     </p>
     </details>
     <details>
     <summary>Task2:</summary>
       <p>
-        Implementazione verifica vicinanza tra dispositivi (13 ore)    
+        Implementazione verifica vicinanza prima dell'avvio modalità duella.  
+    </p>
+    </details>
+    <details>
+    <summary>Task2:</summary>
+      <p>
+        Implementazione interfaccia per avviare la modalità tra due dispositivi vicini.    
     </p>
     </details>
     <details>
     <summary>Task3:</summary>
       <p>
-        Testing attivazione modalità duella e verifica vicinanza (5 ore)    
+        Testing affidabilità rilevamento vicinanza.  
     </p>
     </details>
   </p>
@@ -657,23 +663,11 @@ Il problema che mi sono posto nel pensare di realizzare questo programma è stat
 <details>
 <summary>USER STORY 12:</summary>
   <p>
-    Come sistema, devo verificare la vicinanza tra i dispositivi prima di avviare la modalità duella.
+    Come sistema, la registrazione delle discese e il confronto dei risultati devono essere altamente precisi al fine di rendere l'esperienza di visualizzazione dell'utente più precisa e facilitata (SLOT: 8 ORE). 
       <details>
     <summary>Task1:</summary>
       <p>
-        Sviluppo sistema di rilevamento vicinanza tra dispositivi (21 ore)    
-    </p>
-    </details>
-    <details>
-    <summary>Task2:</summary>
-      <p>
-        Implementazione verifica vicinanza prima dell'avvio modalità duella (13 ore)    
-    </p>
-    </details>
-    <details>
-    <summary>Task3:</summary>
-      <p>
-        Testing affidabilità rilevamento vicinanza (8 ore)    
+        Ottimizzazione registrazione discese per massima precisione.    
     </p>
     </details>
   </p>
@@ -683,23 +677,29 @@ Il problema che mi sono posto nel pensare di realizzare questo programma è stat
 <details>
 <summary>USER STORY 13:</summary>
   <p>
-    Come sistema, la registrazione delle discese e il confronto dei risultati devono essere altamente precisi.
+    Come utente, voglio registrarmi e accedere in modo sicuro all'applicazione (SLOT: 21 ORE).
       <details>
-    <summary>Task1:</summary>
+    <summary>Task 1:</summary>
       <p>
-        Ottimizzazione registrazione discese per massima precisione (21 ore)    
+        Implementazione processo di registrazione sicuro.    
     </p>
     </details>
     <details>
-    <summary>Task2:</summary>
+    <summary>Task 2:</summary>
       <p>
-        Implementazione algoritmi avanzati per il confronto dei risultati (13 ore)    
+        Creazione interfaccia di accesso.    
     </p>
     </details>
     <details>
-    <summary>Task3:</summary>
+    <summary>Task 3:</summary>
       <p>
-        Testing approfondito della precisione delle registrazioni e del confronto risultati (8 ore)    
+        Creazione interfaccia di registrazione.    
+    </p>
+    </details>
+    <details>
+    <summary>Task 4:</summary>
+      <p>
+        Testing sicurezza del processo di registrazione e accesso.    
     </p>
     </details>
   </p>
@@ -709,23 +709,11 @@ Il problema che mi sono posto nel pensare di realizzare questo programma è stat
 <details>
 <summary>USER STORY 14:</summary>
   <p>
-    Come utente, voglio registrarmi e accedere in modo sicuro all'applicazione.
+    Come sistema, devo garantire tempi di risposta rapidi durante la registrazione e l'autenticazione (SLOT: 13 ORE).
       <details>
-    <summary>Task1:</summary>
+    <summary>Task 1:</summary>
       <p>
-        Implementazione processo di registrazione sicuro (8 ore)    
-    </p>
-    </details>
-    <details>
-    <summary>Task2:</summary>
-      <p>
-        Creazione interfaccia di accesso (13 ore)    
-    </p>
-    </details>
-    <details>
-    <summary>Task3:</summary>
-      <p>
-        Testing sicurezza del processo di registrazione e accesso (5 ore)    
+        Ottimizzazione del sistema per tempi di risposta rapidi.    
     </p>
     </details>
   </p>
@@ -735,23 +723,23 @@ Il problema che mi sono posto nel pensare di realizzare questo programma è stat
 <details>
 <summary>USER STORY 15:</summary>
   <p>
-    Come sistema, devo garantire tempi di risposta rapidi durante la registrazione e l'autenticazione.
+    Come utente, voglio visualizzare e modificare facilmente il mio profilo (SLOT: 21 ORE).
       <details>
-    <summary>Task1:</summary>
+    <summary>Task 1:</summary>
       <p>
-        Ottimizzazione del sistema per tempi di risposta rapidi (21 ore)    
+        Creazione interfaccia profilo utente.    
     </p>
     </details>
     <details>
-    <summary>Task2:</summary>
+    <summary>Task 2:</summary>
       <p>
-        Implementazione di caching per accelerare il processo di registrazione e accesso (13 ore)    
+        Implementazione funzionalità modifica informazioni del profilo.   
     </p>
     </details>
     <details>
-    <summary>Task3:</summary>
+    <summary>Task 3:</summary>
       <p>
-        Testing tempi di risposta in situazioni di carico elevato (8 ore)    
+        Testing visualizzazione e modifica del profilo utente-    
     </p>
     </details>
   </p>
@@ -761,49 +749,68 @@ Il problema che mi sono posto nel pensare di realizzare questo programma è stat
 <details>
 <summary>USER STORY 16:</summary>
   <p>
-    Come utente, desidero un processo di registrazione e autenticazione intuitivo.
+    Come utente premium, voglio utilizzare la mappa discesa per navigare sugli impianti sciistici e visualizzare le piste al fine di avere una visualizzazione grafica degli impieanti e discese aperte (SLOT: 35 ORE).
       <details>
-    <summary>Task1:</summary>
+    <summary>Task 1:</summary>
       <p>
-        Revisione e miglioramento del flusso di registrazione e autenticazione (13 ore)    
+        Sviluppo interfaccia mappa discesa per utenti premium.    
     </p>
     </details>
     <details>
-    <summary>Task2:</summary>
+    <summary>Task 2:</summary>
       <p>
-        Creazione di guide utente chiare per il processo (8 ore)    
+        Implementazione funzionalità di navigazione sugli impianti sciistici.   
     </p>
     </details>
     <details>
-    <summary>Task3:</summary>
+    <summary>Task 3:</summary>
       <p>
-        Testing dell'intuitività del processo di registrazione e autenticazione (5 ore)    
+        Implementazione funzionalità che riporti le piste aperte.   
+    </p>
+    </details>
+    <details>
+    <summary>Task 4:</summary>
+      <p>
+        Implementazione funzionalità che riporti gli impianti disponibili.   
+    </p>
+    </details>
+    <details>
+    <summary>Task 5:</summary>
+      <p>
+        Testing della mappa discesa e navigazione sugli impianti sciistici (21 ore)    
     </p>
     </details>
   </p>
 </details>
 
 ***
+
 <details>
 <summary>USER STORY 17:</summary>
   <p>
-    Come utente, voglio visualizzare e modificare facilmente il mio profilo.
+    Come utente premium, voglio accedere alla modalità fuori pista (SLOT: 21 ORE).
       <details>
-    <summary>Task1:</summary>
+    <summary>Task 1:</summary>
       <p>
-        Creazione interfaccia visualizzazione e modifica profilo utente (8 ore)    
+        Sviluppo interfaccia e funzionalità per l'accesso alla modalità fuori pista per utenti premium.    
     </p>
     </details>
     <details>
-    <summary>Task2:</summary>
+    <summary>Task 2:</summary>
       <p>
-        Implementazione funzionalità modifica informazioni del profilo (13 ore)    
+        Implementazione sistema di registrazione delle sciate fuori pista.   
     </p>
     </details>
     <details>
-    <summary>Task3:</summary>
+    <summary>Task 3:</summary>
       <p>
-        Testing visualizzazione e modifica del profilo utente (5 ore)    
+        Sviluppo di sistemi per la misurazione di parametri relativi alla discesa fuori pista.   
+    </p>
+    </details>
+    <details>
+    <summary>Task 4:</summary>
+      <p>
+        Testing della modalità fuori pista.    
     </p>
     </details>
   </p>
@@ -813,23 +820,23 @@ Il problema che mi sono posto nel pensare di realizzare questo programma è stat
 <details>
 <summary>USER STORY 18:</summary>
   <p>
-    Come utente premium, voglio utilizzare la mappa discesa per navigare sugli impianti sciistici e visualizzare le piste.
+    Come utente premium, desidero generare report dei miei record di sciate al fine di avere una documentazione pù accurata dei miei risultati (SLOT: 21 ORE).
       <details>
-    <summary>Task1:</summary>
+    <summary>Task 1:</summary>
       <p>
-        Sviluppo interfaccia mappa discesa per utenti premium (8 ore)    
+        Creazione interfaccia per la generazione di report.    
     </p>
     </details>
     <details>
     <summary>Task2:</summary>
       <p>
-        Implementazione funzionalità di navigazione sugli impianti sciistici (13 ore)    
+        Implementazione sistema di generazione automatica di report.    
     </p>
     </details>
     <details>
     <summary>Task3:</summary>
       <p>
-        Testing della mappa discesa e navigazione sugli impianti sciistici (21 ore)    
+        Testing della generazione automatica dei report.    
     </p>
     </details>
   </p>
@@ -839,23 +846,29 @@ Il problema che mi sono posto nel pensare di realizzare questo programma è stat
 <details>
 <summary>USER STORY 19:</summary>
   <p>
-    Come utente premium, desidero confrontare le discese effettuate in modo dettagliato.
+    Come utente premium, voglio ampliare la modalità duella da 2 a 4 persone al fine di competere con più utenti contemporaneamente (SLOT: 13 ORE).
       <details>
-    <summary>Task1:</summary>
+    <summary>Task 1:</summary>
       <p>
-        Implementazione funzionalità di confronto dettagliato delle discese per utenti premium (21 ore)    
+        Modifica interfaccia modalità duella per supportare fino a 4 persone.    
     </p>
     </details>
     <details>
-    <summary>Task2:</summary>
+    <summary>Task 2:</summary>
       <p>
-        Creazione interfaccia visualizzazione dettagli confronto discese (13 ore)    
+        Aggiornamento del sistema per gestire la sfida tra 4 persone.    
     </p>
     </details>
     <details>
-    <summary>Task3:</summary>
+    <summary>Task 3:</summary>
       <p>
-        Testing del confronto dettagliato delle discese (8 ore)    
+        Testing dell'ampliamento della modalità duella.    
+    </p>
+    </details>
+    <details>
+    <summary>Task 4:</summary>
+      <p>
+        Sviluppo sistema confronto dati a 4 ampliato.  
     </p>
     </details>
   </p>
@@ -865,23 +878,17 @@ Il problema che mi sono posto nel pensare di realizzare questo programma è stat
 <details>
 <summary>USER STORY 20:</summary>
   <p>
-    Come utente premium, voglio accedere alla modalità fuori pista.
+    Come utente premium, voglio condividere più risultati contemporaneamente (SLOT: 8 ORE).
       <details>
-    <summary>Task1:</summary>
+    <summary>Task 1:</summary>
       <p>
-        Sviluppo interfaccia e funzionalità per l'accesso alla modalità fuori pista per utenti premium (13 ore)    
+        Implementazione funzionalità di condivisione multipla per utenti premium.   
     </p>
     </details>
     <details>
-    <summary>Task2:</summary>
+    <summary>Task 2:</summary>
       <p>
-        Implementazione sistema di registrazione delle sciate fuori pista (8 ore)    
-    </p>
-    </details>
-    <details>
-    <summary>Task3:</summary>
-      <p>
-        Testing dell'accesso e registrazione nella modalità fuori pista (5 ore)    
+        Creazione interfaccia per la selezione e condivisione multipla dei risultati.    
     </p>
     </details>
   </p>
@@ -891,103 +898,23 @@ Il problema che mi sono posto nel pensare di realizzare questo programma è stat
 <details>
 <summary>USER STORY 21:</summary>
   <p>
-    Come utente premium, desidero generare report automatici dei miei record di sciate.
+    Come sistema, devo implementare le misure necessarie per rispettare le norme GDPR in termini di privacy dei dati degli utenti al fine di evitare furti di identità e di infromazioni (SLOT: 21 ORE).
       <details>
-    <summary>Task1:</summary>
+    <summary>Task 1:</summary>
       <p>
-        Creazione interfaccia per la generazione di report automatici (8 ore)    
+        Revisione e adeguamento del sistema alle norme GDPR.   
     </p>
     </details>
     <details>
-    <summary>Task2:</summary>
+    <summary>Task 2:</summary>
       <p>
-        Implementazione sistema di generazione automatica di report (13 ore)    
-    </p>
-    </details>
-    <details>
-    <summary>Task3:</summary>
-      <p>
-        Testing della generazione automatica dei report (21 ore)    
+        Implementazione di protocolli di sicurezza per la privacy dei dati.    
     </p>
     </details>
   </p>
 </details>
 
 ***
-<details>
-<summary>USER STORY 22:</summary>
-  <p>
-    Come utente premium, voglio ampliare la modalità duella da 2 a 4 persone.
-      <details>
-    <summary>Task1:</summary>
-      <p>
-        Modifica interfaccia modalità duella per supportare fino a 4 persone (13 ore)    
-    </p>
-    </details>
-    <details>
-    <summary>Task2:</summary>
-      <p>
-        Aggiornamento del sistema per gestire la sfida tra 4 persone (21 ore)    
-    </p>
-    </details>
-    <details>
-    <summary>Task3:</summary>
-      <p>
-        Testing dell'ampliamento della modalità duella (8 ore)    
-    </p>
-    </details>
-  </p>
-</details>
+L'applicazione al fine dell'applicazione è caratterizzato da 21 user story, ognuna delle quali rappresenta delle esigenze richieste dall'utente o dal sistema che devono essere implementate dal team aziendale. Il totale delle ore è di: 370 ore. Considerando SPLIT di 4 settiamne, al termine dei quali segue una riunione con la presentazione materiale dei risultati ottenuto e del punto a cui il team è riuscito a sviluppare la presentazione, dunque con una durata di lavoro di 160 ore circa, il lavoro dovrà essere sviluppato entro 3 split. Essendo che le user story hanno dunque una durata tale da essere suddivise su almeno due split, l'implementazione dell'applicazione può avere atto da parte del team composto da 4 persone.
 
-***
-<details>
-<summary>USER STORY 23:</summary>
-  <p>
-    Come utente premium, voglio condividere più risultati contemporaneamente.
-      <details>
-    <summary>Task1:</summary>
-      <p>
-        Implementazione funzionalità di condivisione multipla per utenti premium (21 ore)    
-    </p>
-    </details>
-    <details>
-    <summary>Task2:</summary>
-      <p>
-        Creazione interfaccia per la selezione e condivisione multipla dei risultati (13 ore)    
-    </p>
-    </details>
-    <details>
-    <summary>Task3:</summary>
-      <p>
-        Testing della condivisione multipla dei risultati (8 ore)    
-    </p>
-    </details>
-  </p>
-</details>
-
-***
-<details>
-<summary>USER STORY 24:</summary>
-  <p>
-    Come sistema, devo implementare le misure necessarie per rispettare le norme GDPR in termini di privacy dei dati degli utenti.
-      <details>
-    <summary>Task1:</summary>
-      <p>
-        Revisione e adeguamento del sistema alle norme GDPR (21 ore)    
-    </p>
-    </details>
-    <details>
-    <summary>Task2:</summary>
-      <p>
-        Implementazione di protocolli di sicurezza per la privacy dei dati (13 ore)    
-    </p>
-    </details>
-    <details>
-    <summary>Task3:</summary>
-      <p>
-        Testing delle misure di sicurezza implementate (8 ore)    
-    </p>
-    </details>
-  </p>
-</details>
 
