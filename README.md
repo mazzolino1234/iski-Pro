@@ -586,14 +586,14 @@ Il problema che mi sono posto nel pensare di realizzare questo programma è stat
 <summary>USER STORY 9:</summary>
   <p>
     Come sistema, devo gestire un numero crescente di utenti e dei loro risultati al fine di evitare problematiche realitive all'accesso degli utenti (SLOT: 13 ORE).
-      <details>
-    <summary>Task1:</summary>
+      <details> 
+    <summary>Task 1:</summary>
       <p>
         Sviluppo sistema di gestione utenti e risultati.   
     </p>
     </details>
     <details>
-    <summary>Task2:</summary>
+    <summary>Task 2:</summary>
       <p>
         Ottimizzazione delle prestazioni per gestire un grande numero di utenti.    
     </p>
@@ -607,19 +607,19 @@ Il problema che mi sono posto nel pensare di realizzare questo programma è stat
   <p>
     Come utente, voglio attivare la modalità duella quando sono nelle vicinanze di altri utenti (SLOT: 13 ORE).
       <details>
-    <summary>Task1:</summary>
+    <summary>Task 1:</summary>
       <p>
         Creazione interfaccia attivazione modalità duella.    
     </p>
     </details>
     <details>
-    <summary>Task2:</summary>
+    <summary>Task 2:</summary>
       <p>
         Implementazione verifica vicinanza tra dispositivi.   
     </p>
     </details>
     <details>
-    <summary>Task3:</summary>
+    <summary>Task 3:</summary>
       <p>
         Testing attivazione modalità duella e verifica vicinanza.   
     </p>
@@ -633,25 +633,25 @@ Il problema che mi sono posto nel pensare di realizzare questo programma è stat
   <p>
     Come sistema, devo verificare la vicinanza tra i dispositivi prima di avviare la modalità duella (SLOT: 21 ORE).
       <details>
-    <summary>Task1:</summary>
+    <summary>Task 1:</summary>
       <p>
         Sviluppo sistema di rilevamento vicinanza tra dispositivi.   
     </p>
     </details>
     <details>
-    <summary>Task2:</summary>
+    <summary>Task 2:</summary>
       <p>
         Implementazione verifica vicinanza prima dell'avvio modalità duella.  
     </p>
     </details>
     <details>
-    <summary>Task2:</summary>
+    <summary>Task 3:</summary>
       <p>
         Implementazione interfaccia per avviare la modalità tra due dispositivi vicini.    
     </p>
     </details>
     <details>
-    <summary>Task3:</summary>
+    <summary>Task 4:</summary>
       <p>
         Testing affidabilità rilevamento vicinanza.  
     </p>
