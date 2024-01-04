@@ -915,6 +915,6 @@ Il problema che mi sono posto nel pensare di realizzare questo programma è stat
 </details>
 
 ***
-L'applicazione al fine dell'applicazione è caratterizzato da 21 user story, ognuna delle quali rappresenta delle esigenze richieste dall'utente o dal sistema che devono essere implementate dal team aziendale. Il totale delle ore è di: 370 ore. Considerando SPLIT di 4 settiamne, al termine dei quali segue una riunione con la presentazione materiale dei risultati ottenuto e del punto a cui il team è riuscito a sviluppare la presentazione, dunque con una durata di lavoro di 160 ore circa, il lavoro dovrà essere sviluppato entro 3 split. Essendo che le user story hanno dunque una durata tale da essere suddivise su almeno due split, l'implementazione dell'applicazione può avere atto da parte del team composto da 4 persone.
+L'applicazione al fine dell'applicazione è caratterizzato da 21 user story, ognuna delle quali rappresenta delle esigenze richieste dall'utente o dal sistema che devono essere implementate dal team aziendale. Il totale delle ore è di: 370 ore. Considerando SPLIT di 3 settiamne, al termine dei quali segue una riunione con la presentazione materiale dei risultati ottenuto e del punto a cui il team è riuscito a sviluppare la presentazione, dunque con una durata di lavoro di 160 ore circa, il lavoro dovrà essere sviluppato entro 3 split. Essendo che le user story hanno dunque una durata tale da essere suddivise su quattro split, l'implementazione dell'applicazione può avere atto da parte del team composto da 4 persone.
 
 
